@@ -3,7 +3,7 @@
 		<div class="container">
 		  <div class="row">
 			<div class="col-md-4 copyright">
-			  &copy; <?php echo date('Y'); ?> Copyright <?php bloginfo( 'name' ); ?>.
+			  &copy; <?php echo date('Y'); ?> Marcel Stauffer. All rights reserved. 
 			</div>
 			<div class="col-md-4 col-md-offset-4 attribution">
 				<?php if (!empty($brew_options['twitter_url'])) : ?>
