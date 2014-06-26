@@ -21,21 +21,22 @@
 		display: inline-block;
 		vertical-align: middle;
 	}
-	h3{
-		font-weight: 400;
-		text-transform: uppercase;
-		font-size: 16px;
-		color: #fff;
-		letter-spacing: 2px;
-		display: inline-block;
-		padding: 15px 25px;
-		border: 2px solid #fff;
-	}
 }
 
 .thumb{
 	border:7px solid #e5e5e5;
 }
+
+.bg-light{
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.bg-dark{
+	background-color: @gray-light;
+	border-color: @gray-light;
+}
+
 
 .section-heading{
 	text-transform: uppercase;
@@ -107,6 +108,101 @@
 	}
 }
 
+
+// HOME PAGE
+#home{
+	.home-image{
+		.home-hero{
+			h2{
+
+			}
+		}
+	}
+}
+
+//ABOUT PAGE
+#about{
+	.about-footer{
+		.nav{
+			li{
+				span.fa{
+					color: @brand-success;
+				}
+				h4{
+					margin-bottom: 0px;
+				}
+				small{
+					color: @gray-light;
+				}
+			}
+		}
+	}
+}
+
+
+//AUTO
+#auto{
+	a{
+		position: relative;
+		&:hover{
+			.title-container{
+				.opacity(0.9);
+			}
+		}
+		.title-container{
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			background: @gray-darker;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			.opacity(0);
+			.transition(0.2s);
+			.download{
+			}
+		}
+	}
+}
+
+// BIKE
+#bike{
+	.image{
+		img{
+			margin: auto;
+		}
+	}
+}
+
+//TEAM
+#team{
+	.team-content{
+		background-color: @gray-darker;
+		border-bottom: 2px solid @brand-success;
+		margin-bottom: 30px;
+		h4.title{
+			color: @brand-success;
+			margin-bottom: 0px;
+		}
+		p{
+			color: @gray-light;
+		}
+		.team-social{
+			text-align: center;
+			display: block;
+			padding: 10px 0;
+			p{
+				margin-bottom: 0px;
+			}
+			a{
+				.fa{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
 // GRAVITY FORMS
 .gform_wrapper{
 	.gform_button{

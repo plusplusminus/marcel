@@ -15,17 +15,24 @@
 								<?php echo wp_get_attachment_image($value['image_id'],'full','',$default);?>
 							</div>
 							<div class="row">
-								<div class="col-md-10">
-									<h4 class='title'><?php echo $value['title']; ?></h4>
-									<?php echo wpautop($value['description']);?>
-								</div>
-								<div class="col-md-2">
-									<?php if(!empty($value['web_link'])) : ?>
-										<p><a href="<?php echo $value['web_link'];?>"><span class="fa fa-globe"></span></a></p>
-									<?php endif; ?>
-									<?php if(!empty($value['facebook_link'])) : ?>
-										<p><a href="<?php echo $value['facebook_link'];?>"><span class="fa fa-facebook"></span></a></p>
-									<?php endif; ?>
+								<div class="col-md-12">
+									<div class="team-content">
+										<div class="col-md-10">
+											<h4 class='title'><?php echo $value['title']; ?></h4>
+											<?php echo wpautop($value['description']);?>
+										</div>
+										<div class="col-md-2">
+											<div class="team-social">
+												<?php if(!empty($value['web_link'])) : ?>
+													<p><a href="<?php echo $value['web_link'];?>"><span class="fa fa-globe"></span></a></p>
+												<?php endif; ?>
+												<?php if(!empty($value['facebook_link'])) : ?>
+													<p><a href="<?php echo $value['facebook_link'];?>"><span class="fa fa-facebook"></span></a></p>
+												<?php endif; ?>
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
 								</div>
 							</div>
 						</div>
