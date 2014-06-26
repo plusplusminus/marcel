@@ -23,14 +23,11 @@ Template Name: Home
 			<div class="col-md-offset-6 col-md-6">
 				<div class="home-hero">
 					<h2>Marcel Stauffer</h2>
-					<h2> <p class="text-success">The Blade</p></h2>
-					<button class="btn btn-primary">Video</button>
-				</div> 
+					<h2>The Blade</h2>
+					<button class="btn btn-primary" data-toggle="modal" data-target="#basicModal">Video</button>
+				</div>
 			</div>
 		</div><!--/.inner-->
-		<div class="homebanner-buttons hidden-xs hidden-sm">
-			
-		</div>
 	</div>
 </div>
 
