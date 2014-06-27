@@ -1,6 +1,6 @@
 <?php /* Template Name: Blog */  ?>
 <?php global $post; ?>
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="blog" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
@@ -30,7 +30,7 @@
 								<div class="blog-content">
 									<div class="title-container">
 										<h4 class='title'><?php the_title();?></h4>
-										<?php the_excerpt();?>
+										<a href="<?php the_permalink();?>" class="btn btn-xs btn-primary">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -45,3 +45,4 @@
 			<?php } wp_reset_postdata();?>
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

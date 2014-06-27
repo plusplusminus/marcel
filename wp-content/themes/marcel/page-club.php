@@ -1,7 +1,7 @@
 <?php /* Template Name: Club */  ?>
 <?php global $post; ?>
 <?php global $html_body; ?>
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="club">
 	<div class="container">
 		<header class="section-heading text-center">
@@ -17,7 +17,7 @@
 		
 		<?php
 
-		$the_query = new WP_Query( array('post_parent'=>$page,'post_type'=>'page','orderby' => 'menu_order', 'order' => 'ASC' ));
+		$the_query = new WP_Query( array('post_parent'=>$pid,'post_type'=>'page','orderby' => 'menu_order', 'order' => 'ASC' ));
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>
@@ -151,3 +151,4 @@
 
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

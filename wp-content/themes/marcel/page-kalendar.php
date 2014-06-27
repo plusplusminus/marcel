@@ -1,6 +1,7 @@
-<?php /* Template Name: Home */  ?>
+<?php /* Template Name: Kalendar */  ?>
 <?php global $post; ?>
 
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="about">
 	<div class="container">
 		
@@ -31,3 +32,4 @@
 
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

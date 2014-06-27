@@ -1,5 +1,6 @@
 <?php /* Template Name: Press */  ?>
 <?php global $post; ?>
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 
 <section id="press">
 	<div class="container">
@@ -47,3 +48,5 @@
 			<?php } wp_reset_postdata();?>
 	</div> <!-- container -->
 </section><!--/.services-->
+
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>
