@@ -27,7 +27,7 @@
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #efefef;
+@body-bg:               #f0f0f0;
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
 
@@ -99,7 +99,7 @@
 @line-height-large:         1.33;
 @line-height-small:         1.5;
 
-@border-radius-base:        4px;
+@border-radius-base:        0px;
 @border-radius-large:       6px;
 @border-radius-small:       3px;
 @border-radius-round:       100px;
@@ -345,7 +345,7 @@
 // Inverted navbar
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-bg:                         #f6f6f6;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
@@ -382,16 +382,15 @@
 @nav-open-link-hover-color:                 #fff;
 
 //== Tabs
-@nav-tabs-border-color:                     #ddd;
+@nav-tabs-border-color:                     transparent;
+@nav-tabs-link-hover-border-color:          transparent;
 
-@nav-tabs-link-hover-border-color:          @gray-lighter;
-
-@nav-tabs-active-link-hover-bg:             @body-bg;
+@nav-tabs-active-link-hover-bg:             transparent;
 @nav-tabs-active-link-hover-color:          @gray;
-@nav-tabs-active-link-hover-border-color:   #ddd;
+@nav-tabs-active-link-hover-border-color:   transparent;
 
-@nav-tabs-justified-link-border-color:            #ddd;
-@nav-tabs-justified-active-link-border-color:     @body-bg;
+@nav-tabs-justified-link-border-color:            transparent;
+@nav-tabs-justified-active-link-border-color:     transparent;
 
 //== Pills
 @nav-pills-border-radius:                   @border-radius-base;
@@ -452,7 +451,7 @@
 //## Define colors for form feedback states and, by default, alerts.
 
 @state-success-text:             #3c763d;
-@state-success-bg:               #dff0d8;
+@state-success-bg:               @brand-success;
 @state-success-border:           darken(spin(@state-success-bg, -10), 5%);
 
 @state-info-text:                #31708f;

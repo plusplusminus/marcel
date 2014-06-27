@@ -3,7 +3,7 @@
 
 <?php $page =  get_post_meta($post->ID,'_ppm_bike_page',true) ?>
 
-<section id="bike">
+<section id="bike" class="bg-light">
 	<div class="container">
 		
 		<?php
@@ -14,10 +14,15 @@
 		if ( $the_query->have_posts() ) { $count = 0;?>
 			<?php while ( $the_query->have_posts() ) { $the_query->the_post(); $count++;?>
 				<header class="section-heading text-center">
-					<div class="sub-heading"><?php echo get_the_title($post->ID);?></div>
+					<h2><?php echo get_the_title($post->ID);?></h2>
 					<?php $sub_heading = get_post_meta($post->ID,'_ppm_sub_heading',true);?>
-					<h2><?php echo esc_attr($sub_heading);?></h2>
+					<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
 				</header>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-5">
+						<hr>
+					</div>
+				</div>
 
 				<section class="image">
 					<?php the_post_thumbnail('full',$default ); ?>

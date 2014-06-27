@@ -29,13 +29,14 @@
 									<a href="<?php echo $value['image'];?>" target="_blank">
 										<div class="image-container">
 											<?php echo wp_get_attachment_image($value['image_id'],'full','',$default);?>
-											<div class="title-container">
-												<p>Download</p>
+											<div class="title-container vertical">
+												<span class="inner download btn btn-success">Download</span>
 											</div>
 										</div>
 									</a>
 								</div>
 							<?php } ?>
+
 						</div>
 					<?php endif; ?>
 				</section>

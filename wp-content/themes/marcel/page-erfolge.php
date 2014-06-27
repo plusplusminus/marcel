@@ -3,13 +3,18 @@
 
 <?php $page =  get_post_meta($post->ID,'_ppm_new_page',true) ?>
 
-<section id="team">
+<section id="erfolge" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
-			<div class="sub-heading"><?php echo get_the_title($page);?></div>
+			<h2><?php echo get_the_title($page);?></h2>
 			<?php $sub_heading = get_post_meta($page,'_ppm_sub_heading',true);?>
-			<h2><?php echo esc_attr($sub_heading);?></h2>
+			<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
 		</header>
+		<div class="row">
+			<div class="col-md-2 col-md-offset-5">
+				<hr>
+			</div>
+		</div>
 		
 		<?php
 
@@ -17,7 +22,7 @@
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>
-			<?php $html_header = '<ul class="nav nav-tabs" id="erfolgeTabs">'; ?>
+			<?php $html_header = '<ul class="nav nav-tabs nav-justified" id="erfolgeTabs">'; ?>
 			<?php $html_body = '<div class="tab-content">'; ?>
 			<?php while ( $the_query->have_posts() ) { $the_query->the_post(); $count++;?>
 

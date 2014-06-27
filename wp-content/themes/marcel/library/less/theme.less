@@ -21,20 +21,20 @@
 		display: inline-block;
 		vertical-align: middle;
 	}
-	h3{
-		font-weight: 400;
-		text-transform: uppercase;
-		font-size: 16px;
-		color: #fff;
-		letter-spacing: 2px;
-		display: inline-block;
-		padding: 15px 25px;
-		border: 2px solid #fff;
-	}
 }
 
 .thumb{
 	border:7px solid #e5e5e5;
+}
+
+.bg-light{
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.bg-dark{
+	background-color: @gray-light;
+	border-color: @gray-light;
 }
 
 .section-heading{
@@ -61,6 +61,7 @@
 .img-holder{
 	position: relative;
 }
+
 .holder {
 	.vertical();
 	.section-heading{
@@ -107,6 +108,141 @@
 	}
 }
 
+.info-container{
+	background-color: @gray-darker;
+	border-bottom: 2px solid @brand-success;
+	margin-bottom: 30px;
+	h4.title{
+		color: @brand-success;
+		margin-bottom: 5px;
+	}
+	p{
+		color: @gray-light;
+	}
+	.social{
+		text-align: center;
+		display: block;
+		padding: 10px 0;
+		p{
+			margin-bottom: 0px;
+		}
+		a{
+			.fa{
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+// HOME PAGE
+
+		.home-hero{
+			height: 100%;
+		}
+
+//ABOUT PAGE
+#about{
+	.about-footer{
+		.nav{
+			li{
+				span.fa{
+					color: @brand-success;
+				}
+				h4{
+					margin-bottom: 0px;
+				}
+				small{
+					color: @gray-light;
+				}
+			}
+		}
+	}
+}
+
+
+//AUTO
+#auto{
+	a{
+		position: relative;
+		&:hover{
+			.title-container{
+				.opacity(0.9);
+			}
+		}
+		.title-container{
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			background: @gray-darker;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			.opacity(0);
+			.transition(0.2s);
+			.download{
+			}
+		}
+	}
+}
+
+// BIKE
+#bike{
+	.image{
+		img{
+			margin: auto;
+		}
+	}
+}
+
+
+
+//TEAM
+#team{
+	.team-content{
+		.info-container();
+	}
+}
+
+// PRESS
+#press{
+	.media{
+		padding: 15px;
+		background-color: @gray-dark;
+		border-bottom: 2px solid @brand-success;
+		h4.media-heading{
+			color: @brand-success;
+		}
+		p{
+			color: @gray-light;
+			margin-bottom: 0px;
+		}
+	}
+}
+
+//ERFLOGGE
+#erfolge{
+	.title-container{
+		background-color: @gray-dark;
+		padding: 5px 15px;
+		border-bottom: 2px solid @brand-success;
+		h4.title{
+			color: @brand-success;
+			margin-bottom: 5px;
+		}
+		p{
+			color: @gray-light;
+		}
+	}
+}
+
+//CLUB
+#club{
+	.sponsors-content{
+		.info-container();
+	}
+}
 // GRAVITY FORMS
 .gform_wrapper{
 	.gform_button{
