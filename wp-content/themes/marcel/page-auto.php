@@ -1,6 +1,6 @@
 <?php /* Template Name: Autogrammkarten */  ?>
 <?php global $post; ?>
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="auto">
 	<div class="container">
 		
@@ -47,3 +47,4 @@
 
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

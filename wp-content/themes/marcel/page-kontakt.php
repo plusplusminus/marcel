@@ -1,6 +1,6 @@
 <?php /* Template Name: Kontakt */  ?>
 <?php global $brew_options;?>
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="contact" class="bg-success">
 	<div class="container">
 		<header class="section-heading text-center">
@@ -58,3 +58,4 @@
 
 	</div>
 </section><!--/.contact-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

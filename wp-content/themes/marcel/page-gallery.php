@@ -1,8 +1,6 @@
 <?php /* Template Name: Gallery */  ?>
 <?php global $post; ?>
-
-<?php $page =  get_post_meta($post->ID,'_ppm_gallery_page',true) ?>
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="gallery" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
@@ -48,3 +46,4 @@
 			<?php } wp_reset_postdata();?>
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

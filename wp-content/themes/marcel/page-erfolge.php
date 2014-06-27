@@ -1,7 +1,6 @@
 <?php /* Template Name: Erfolge */  ?>
 <?php global $post; ?>
-
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="erfolge" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
@@ -72,3 +71,4 @@
 
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>
