@@ -7,6 +7,7 @@ jQuery(document).ready(function(){
         parallax:true
     });
 
+    jQuery(".video-container").fitVids();
 
     jQuery('#erfolgeTabs a:first,#clubTabs a:first,#cupTabs a:first').tab('show');
 
@@ -39,8 +40,22 @@ jQuery(document).ready(function(){
         event.preventDefault();
     });
 
+    jQuery(window).scroll(function() {    
+	    var scroll = jQuery(window).scrollTop();
+	     //>=, not <=
+	    if (scroll >= 300) {
+	        //clearHeader, not clearheader - caps H
+	        jQuery("body").addClass("stuck");
+	    }
+	    if (scroll <= 0) {
+	        //clearHeader, not clearheader - caps H
+	        jQuery("body").removeClass("stuck");
+	    }
+	});
 });
 
-jQuery(window).load(function(){
-    jQuery('.flexslider-grid').flexslider({animation: "fade",smoothHeight:false});
-});
+    jQuery(window).load(function(){
+        jQuery('.flexslider-grid').flexslider({animation: "fade",smoothHeight:true});
+        
+
+    });

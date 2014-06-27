@@ -19,6 +19,7 @@ wp-content/cache/*
 wp-content/cache/supercache/*
 wp-includes/*
 wp-admin/*
+mixture.json
 
 # wpengine specific
 .smushit-status
