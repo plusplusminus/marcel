@@ -8,7 +8,7 @@
 			<?php $class = 12 / $num + $offset; ?>
 			<?php $count = 0; ?>
 			<?php foreach ($items as $key => $value) { $count++; ?>
-				<div class="<?php if ($count ==1) echo 'col-md-offset-'.abs($offset); ?> col-md-4">
+				<div class="<?php if ($count ==1) echo 'col-md-offset-'.abs($offset); ?> col-md-4 col-xs-6">
 					<div class="image-container">
 						<?php echo wp_get_attachment_image($value['image_id'],'full','',$default);?>
 					</div>
@@ -34,7 +34,6 @@
 						</div>
 					</div>
 				</div>
-				<?php continue; ?>
 			<?php } ?>
 		<?php endif; ?>
 	</div>

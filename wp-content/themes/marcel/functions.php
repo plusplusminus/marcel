@@ -106,6 +106,7 @@ function child_sections($sections){
 }
 
 register_nav_menus( array( 'secondary-nav' => __( 'Secondary Nav', 'woothemes' ) ) );
+register_nav_menus( array( 'home-layout' => __( 'Home Layout', 'woothemes' ) ) );
 // Secondary Nav
 function secondary_nav() {
     // display the wp3 menu if available
@@ -114,14 +115,13 @@ function secondary_nav() {
         'container_class' => 'menu clearfix',                       // class of container (should you choose to use it)
         'menu' => __( 'The Main Menu', 'bonestheme' ),              // nav name
         'menu_class' => 'nav navbar-nav navbar-right',              // adding custom nav class
-        'theme_location' => 'secondary-nav',                             // where it's located in the theme
+        'theme_location' => 'main-nav',                             // where it's located in the theme
         'before' => '',                                             // before the menu
       'after' => '',                                            // after the menu
       'link_before' => '',                                      // before each link
       'link_after' => '',                                       // after each link
       'depth' => 2,                                             // limit the depth of the nav
-      'fallback_cb' => 'wp_bootstrap_navwalker::fallback',  // fallback
-        'walker' => new wp_bootstrap_navwalker()                    // for bootstrap nav
+
     ));
 } /* end bones main nav */
 
@@ -231,8 +231,14 @@ function cmb_sample_metaboxes( array $meta_boxes ) {
             ),
             array(
                 'name' => __( 'Kontakt', 'cmb' ),
-                'desc' => __( 'enter the GKontakt page id', 'cmb' ),
+                'desc' => __( 'enter the Kontakt page id', 'cmb' ),
                 'id'   => $prefix . 'kontakt_page',
+                'type' => 'text',
+            ),
+            array(
+                'name' => __( 'Blog', 'cmb' ),
+                'desc' => __( 'enter the Blog page id', 'cmb' ),
+                'id'   => $prefix . 'blog_page',
                 'type' => 'text',
             ),
             )
@@ -706,5 +712,23 @@ function press_cpt() {
 
 // adding the function to the Wordpress init
 add_action( 'init', 'press_cpt');
+
+
+if ( ! function_exists( 'image_menu' ) ) {
+    function image_menu ( $menu_name,$span=2,$offset='' ) {
+        global $pid;
+        if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ $menu_name ] ) ) {
+            $count = 0;
+            $menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
+            $menu_items = wp_get_nav_menu_items($menu->term_id);
+
+            foreach ( (array) $menu_items as $key => $menu_item ) {
+                $pid = $menu_item->object_id;
+                include(locate_template(get_page_template_slug($pid)));
+
+            }
+        }
+    }
+}
 
 ?>

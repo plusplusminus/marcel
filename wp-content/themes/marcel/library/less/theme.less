@@ -276,6 +276,24 @@ body {
 	}
 }
 
+#blog{
+	.blog-content {
+		margin-bottom: 30px;
+		.title-container{
+			background-color: @gray-dark;
+			padding: 5px 15px;
+			border-bottom: 2px solid @brand-success;
+			h4.title{
+				color: @brand-success;
+				margin-bottom: 5px;
+			}
+			p{
+				color: @gray-light;
+			}
+		}
+	}
+}
+
 
 //ERFLOGGE
 #erfolge{
@@ -427,11 +445,11 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a  { text-decoration:none; display: block; width: 45px; height: 45px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 1; cursor: pointer; color: @brand-warning; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
-.flex-direction-nav .flex-prev { left: 10px; }
-.flex-direction-nav .flex-next { right: 10px; text-align: right; }
-.flexslider:hover .flex-prev { opacity: 1; left: 10px; }
-.flexslider:hover .flex-next { opacity: 1; right: 10px; }
+.flex-direction-nav a  { text-decoration:none; display: block; width: 44px; height: 45px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 1; cursor: pointer; color: @brand-warning; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav .flex-prev { left: -50px; }
+.flex-direction-nav .flex-next { right: -50px; text-align: right; }
+.flexslider:hover .flex-prev { opacity: 1; left: -50px; }
+.flexslider:hover .flex-next { opacity: 1; right: -50px; }
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
 .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
 .flex-direction-nav a:before  { font-family: "fontAwesome"; font-size: 40px; display: inline-block; content: '\f104'; }
@@ -457,6 +475,6 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
 @media screen and (max-width: 860px) {
-  .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
-  .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+  .flex-direction-nav .flex-prev { opacity: 1; left: -50px;}
+  .flex-direction-nav .flex-next { opacity: 1; right: -50px;}
 }

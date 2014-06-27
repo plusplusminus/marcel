@@ -1,39 +1,5 @@
 {
-<<<<<<< HEAD
   "convertHtmlOutput": null,
-=======
-<<<<<<< HEAD
-    "customRubyPath": null,
-    "debug": false,
-    "domain": null,
-    "followLeader": false,
-    "lintScripts": false,
-    "modelSource": null,
-    "preprocessorLocations": [
-        "wp-content/themes/marcel/library/less"
-    ],
-    "preprocessorScriptOutput": null,
-    "preprocessorStyleOutput": "wp-content/themes/marcel/library/css",
-    "projectDescription": "My project description",
-    "projectName": "marcel",
-    "publishedId": null,
-    "serverHostname": null,
-    "serverPort": null,
-    "simpleModePartnerServer": "localhost",
-    "templateDefaultLayout": "layout",
-    "templateDefaultPage": "index",
-    "templateDirectory": "templates",
-    "type": "simple",
-    "useCompass": false,
-    "convertHtml": {
-        "path": null,
-        "relativePath": false
-    }
-=======
-  "convertHtml": {
-    "relativePaths": false
-  },
->>>>>>> b3a0986f65ff42b7909e8999cdb15a188429396a
   "customRubyPath": null,
   "debug": false,
   "domain": null,
@@ -54,5 +20,4 @@
   "templateDirectory": "templates",
   "type": "simple",
   "useCompass": false
->>>>>>> 66ad17cf9a70f5f1c4ff119cb222e27f15d635f3
 }

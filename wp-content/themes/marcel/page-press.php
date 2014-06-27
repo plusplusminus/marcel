@@ -1,13 +1,11 @@
 <?php /* Template Name: Press */  ?>
 <?php global $post; ?>
 
-<?php $page =  get_post_meta($post->ID,'_ppm_press_page',true) ?>
-
 <section id="press">
 	<div class="container">
 		<header class="section-heading text-center">
-			<h2><?php echo get_the_title($page);?></h2>
-			<?php $sub_heading = get_post_meta($page,'_ppm_sub_heading',true);?>
+			<h2><?php echo get_the_title($pid);?></h2>
+			<?php $sub_heading = get_post_meta($pid,'_ppm_sub_heading',true);?>
 			<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
 		</header>
 		

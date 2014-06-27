@@ -2,13 +2,11 @@
 <?php global $post; ?>
 <?php global $html_body; ?>
 
-<?php $page =  get_post_meta($post->ID,'_ppm_club_page',true) ?>
-
 <section id="club">
 	<div class="container">
 		<header class="section-heading text-center">
-			<h2><?php echo get_the_title($page);?></h2>
-			<?php $sub_heading = get_post_meta($page,'_ppm_sub_heading',true);?>
+			<h2><?php echo get_the_title($pid);?></h2>
+			<?php $sub_heading = get_post_meta($pid,'_ppm_sub_heading',true);?>
 			<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
 		</header>
 		<div class="row">

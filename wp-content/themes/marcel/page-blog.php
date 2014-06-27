@@ -1,9 +1,7 @@
-<?php /* Template Name: Gallery */  ?>
+<?php /* Template Name: Blog */  ?>
 <?php global $post; ?>
 
-<?php $page =  get_post_meta($post->ID,'_ppm_gallery_page',true) ?>
-
-<section id="gallery" class="bg-light">
+<section id="blog" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
 			<div class="sub-heading"><?php echo get_the_title($pid);?></div>
@@ -13,8 +11,7 @@
 		
 		<?php
 
-		$the_query = new WP_Query( array('post_type'=>'gallery','orderby' => 'menu_order', 'order' => 'ASC' ));
-		$default = array('class'=>'img-responsive');
+		$the_query = new WP_Query( array('post_type'=>'post','orderby' => 'menu_order', 'order' => 'ASC' ));
 		
 		// The Loop
 		
@@ -30,7 +27,7 @@
 								<div class="image-container">
 									<?php the_post_thumbnail('full',$default);?>
 								</div>
-								<div class="gallery-content">
+								<div class="blog-content">
 									<div class="title-container">
 										<h4 class='title'><?php the_title();?></h4>
 										<?php the_excerpt();?>
