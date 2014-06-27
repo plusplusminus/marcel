@@ -3944,6 +3944,12 @@ td.visible-print {
 .icon-world:before {
   content: "\e609";
 }
+.icon-arrow-left:before {
+  content: "\e60b";
+}
+.icon-uniE60C:before {
+  content: "\e60c";
+}
 .icon-facebook:before {
   content: "\e60a";
 }
@@ -5567,13 +5573,13 @@ html[xmlns] .slides {
   cursor: default;
 }
 .flex-direction-nav a:before {
-  font-family: "fontAwesome";
+  font-family: "iconmoon";
   font-size: 40px;
   display: inline-block;
-  content: '\f104';
+  content: '\e60b';
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f105';
+  content: '\e60c';
 }
 /* Pause/Play */
 .flex-pauseplay a {
@@ -5590,16 +5596,16 @@ html[xmlns] .slides {
   color: #000;
 }
 .flex-pauseplay a:before {
-  font-family: "fontAwesome";
+  font-family: "iconmoon";
   font-size: 20px;
   display: inline-block;
-  content: '\f004';
+  content: '\e60c';
 }
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 .flex-pauseplay a.flex-play:before {
-  content: '\f04b';
+  content: '\e60c';
 }
 /* Control Nav */
 .flex-control-nav {

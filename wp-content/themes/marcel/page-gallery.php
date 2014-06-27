@@ -19,7 +19,7 @@
 		?>
 		<?php if ( $the_query->have_posts() ) { $count = 0;?>
 			<?php $num = $the_query->post_count; ?>
-			<div class="flexslider-grid">
+			<div class="flexslider flexslider-grid">
 				<ul class="slides">
 					<li>
 						<div class="row">
