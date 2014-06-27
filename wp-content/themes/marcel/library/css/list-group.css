@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: variable @state-success-bg is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\list-group.less[90m on line 93, column 35:[39m \A [90m92 [39m \A 93 .list-group-item-variant(success; [7m[31m[1m@[22mstate-success-bg; @state-success-text);[39m[27m \A [90m94 .list-group-item-variant(info; @state-info-bg; @state-info-text);[39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }

@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: variable @line-height-computed is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\pagination.less[90m on line 7, column 11:[39m \A [90m6   padding-left: 0;[39m \A 7   margin: [7m[31m[1m@[22mline-height-computed 0;[39m[27m \A [90m8   border-radius: @border-radius-base;[39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }

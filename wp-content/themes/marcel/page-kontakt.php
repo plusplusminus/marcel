@@ -26,27 +26,25 @@
 							<?php the_content(); ?>
 
 				        </div>
-
-						<ul class="fa-ul">
+				        
+						<div class="row">
 							<?php if (!empty($brew_options['address'])) : ?>
-								<li>
-									<span class="fa fa-li fa-map-marker fa-3x fa-fw"></span>
+								<div class="col-xs-2">
+									<span class="icon-location"></span>
+								</div>
+								<div class="col-xs-10">
 									<?php echo wpautop($brew_options['address'] ); ?>
-								</li>
+								</div>
 							<?php endif; ?>
-							<?php if (!empty($brew_options['telephone'])) : ?>
-								<li>
-									<span class="fa fa-li fa-mobile fa-3x fa-fw"></span>
-									<?php echo wpautop($brew_options['telephone'] ); ?>
-								</li>
-							<?php endif;?>
 							<?php if (!empty($brew_options['email'])) : ?>
-								<li>
-									<span class="fa fa-li fa-pencil fa-3x fa-fw"></span>
+								<div class="col-xs-2">
+									<span class="icon-pen"></span>
+								</div>
+								<div class="col-xs-10">
 									<?php echo wpautop($brew_options['email'] ); ?>
-								</li>
+								</div>
 							<?php endif; ?>
-						</ul>
+						</div>
 
 					<?php } ?>
 				<?php

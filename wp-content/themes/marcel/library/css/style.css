@@ -538,10 +538,10 @@ a.bg-primary:hover {
   background-color: #3071a9;
 }
 .bg-success {
-  background-color: #dfd800;
+  background-color: #cefc44;
 }
 a.bg-success:hover {
-  background-color: #aca700;
+  background-color: #c1fb12;
 }
 .bg-info {
   background-color: #d9edf7;
@@ -1515,13 +1515,13 @@ table th[class*="col-"] {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-  background-color: #dfd800;
+  background-color: #cefc44;
 }
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
 .table-hover > tbody > tr.success:hover > th {
-  background-color: #c6bf00;
+  background-color: #c7fc2b;
 }
 .table > thead > tr > td.info,
 .table > tbody > tr > td.info,
@@ -1861,7 +1861,7 @@ select[multiple].input-lg {
 .has-success .input-group-addon {
   color: #3c763d;
   border-color: #3c763d;
-  background-color: #dfd800;
+  background-color: #cefc44;
 }
 .has-success .form-control-feedback {
   color: #3c763d;
@@ -2119,8 +2119,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #dfd800;
-  border-color: #c6bf00;
+  background-color: #cefc44;
+  border-color: #c7fc2b;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -2128,8 +2128,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #b6b000;
-  border-color: #888400;
+  background-color: #c3fb1c;
+  border-color: #ade604;
 }
 .btn-success:active,
 .btn-success.active,
@@ -2151,11 +2151,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #dfd800;
-  border-color: #c6bf00;
+  background-color: #cefc44;
+  border-color: #c7fc2b;
 }
 .btn-success .badge {
-  color: #dfd800;
+  color: #cefc44;
   background-color: #ffffff;
 }
 .btn-info {
@@ -4955,6 +4955,7 @@ This is just for the sample BREW site.  Feel free to delete
   display: block;
   font-weight: bold;
   font-size: 14px;
+  color: #999999;
 }
 .section-heading h2 {
   font-weight: bold;
@@ -5064,12 +5065,12 @@ body {
   }
 }
 .info-container {
-  background-color: #222222;
-  border-bottom: 2px solid #dfd800;
+  background-color: #333333;
+  border-bottom: 2px solid #cefc44;
   margin-bottom: 30px;
 }
 .info-container h4.title {
-  color: #dfd800;
+  color: #cefc44;
   margin-bottom: 5px;
 }
 .info-container p {
@@ -5092,8 +5093,9 @@ body {
 #ModalVideo {
   margin-top: 150px;
 }
-#about .about-footer .nav li span.fa {
-  color: #dfd800;
+#about .about-footer .nav li span.icon {
+  color: #cefc44;
+  font-size: 4em;
 }
 #about .about-footer .nav li h4 {
   margin-bottom: 0px;
@@ -5119,7 +5121,7 @@ body {
   top: 0;
   left: 0;
   display: block;
-  background: #222222;
+  background: #333333;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -5132,12 +5134,12 @@ body {
   margin: auto;
 }
 #team .team-content {
-  background-color: #222222;
-  border-bottom: 2px solid #dfd800;
+  background-color: #333333;
+  border-bottom: 2px solid #cefc44;
   margin-bottom: 30px;
 }
 #team .team-content h4.title {
-  color: #dfd800;
+  color: #cefc44;
   margin-bottom: 5px;
 }
 #team .team-content p {
@@ -5157,10 +5159,10 @@ body {
 #press .media {
   padding: 15px;
   background-color: #333333;
-  border-bottom: 2px solid #dfd800;
+  border-bottom: 2px solid #cefc44;
 }
 #press .media h4.media-heading {
-  color: #dfd800;
+  color: #cefc44;
 }
 #press .media p {
   color: #999999;
@@ -5172,17 +5174,17 @@ body {
 #gallery .gallery-content .title-container {
   background-color: #333333;
   padding: 5px 15px;
-  border-bottom: 2px solid #dfd800;
+  border-bottom: 2px solid #cefc44;
 }
 #gallery .gallery-content .title-container h4.title {
-  color: #dfd800;
+  color: #cefc44;
   margin-bottom: 5px;
 }
 #gallery .gallery-content .title-container p {
   color: #999999;
 }
 .text-success {
-  color: #dfd800;
+  color: #cefc44;
 }
 .post-categories {
   padding-left: 0;
@@ -5202,10 +5204,10 @@ body {
 #blog .blog-content .title-container {
   background-color: #333333;
   padding: 5px 15px;
-  border-bottom: 2px solid #dfd800;
+  border-bottom: 2px solid #cefc44;
 }
 #blog .blog-content .title-container h4.title {
-  color: #dfd800;
+  color: #cefc44;
   margin-bottom: 5px;
 }
 #blog .blog-content .title-container p {
@@ -5214,10 +5216,10 @@ body {
 #erfolge .title-container {
   background-color: #333333;
   padding: 5px 15px;
-  border-bottom: 2px solid #dfd800;
+  border-bottom: 2px solid #cefc44;
 }
 #erfolge .title-container h4.title {
-  color: #dfd800;
+  color: #cefc44;
   margin-bottom: 5px;
 }
 #erfolge .title-container p {
@@ -5238,12 +5240,12 @@ body {
   }
 }
 #club .sponsors-content {
-  background-color: #222222;
-  border-bottom: 2px solid #dfd800;
+  background-color: #333333;
+  border-bottom: 2px solid #cefc44;
   margin-bottom: 30px;
 }
 #club .sponsors-content h4.title {
-  color: #dfd800;
+  color: #cefc44;
   margin-bottom: 5px;
 }
 #club .sponsors-content p {
@@ -5294,8 +5296,8 @@ body {
   -o-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #dfd800;
-  border-color: #c6bf00;
+  background-color: #cefc44;
+  border-color: #c7fc2b;
 }
 .gform_wrapper .gform_button:focus {
   outline: thin dotted;
@@ -5330,8 +5332,8 @@ fieldset[disabled] .gform_wrapper .gform_button {
 .gform_wrapper .gform_button.active,
 .open .dropdown-toggle.gform_wrapper .gform_button {
   color: #ffffff;
-  background-color: #b6b000;
-  border-color: #888400;
+  background-color: #c3fb1c;
+  border-color: #ade604;
 }
 .gform_wrapper .gform_button:active,
 .gform_wrapper .gform_button.active,
@@ -5353,11 +5355,11 @@ fieldset[disabled] .gform_wrapper .gform_button:active,
 .gform_wrapper .gform_button.disabled.active,
 .gform_wrapper .gform_button[disabled].active,
 fieldset[disabled] .gform_wrapper .gform_button.active {
-  background-color: #dfd800;
-  border-color: #c6bf00;
+  background-color: #cefc44;
+  border-color: #c7fc2b;
 }
 .gform_wrapper .gform_button .badge {
-  color: #dfd800;
+  color: #cefc44;
   background-color: #ffffff;
 }
 .gform_wrapper .gform_footer {

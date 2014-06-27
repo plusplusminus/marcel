@@ -1,8 +1,8 @@
-body:before { 
-                            white-space: pre; 
-                            font-family: monospace; 
-                            content: 'Less NameError: .opacity is undefined in \\Users\\iaanvn\\Sites\\netcms\\wp-content\\themes\\netcms\\library\\less\\bootstrap\\close.less on line 13, column 3: \A 12   text-shadow: @close-text-shadow; \A 13   .opacity(.2); \A 14  \A  \A '; } 
-                            
-                            body * { 
-                            display: none; 
-                            } 
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: .opacity is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\close.less[90m on line 13, column 3:[39m \A [90m12   text-shadow: @close-text-shadow;[39m \A 13   [7m[31m[1m.[22mopacity(.2);[39m[27m \A [90m14 [39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }

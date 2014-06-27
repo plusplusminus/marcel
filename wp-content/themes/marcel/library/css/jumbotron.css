@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: variable @jumbotron-padding is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\jumbotron.less[90m on line 7, column 12:[39m \A [90m6 .jumbotron {[39m \A 7   padding: [7m[31m[1m@[22mjumbotron-padding;[39m[27m \A [90m8   margin-bottom: @jumbotron-padding;[39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }
