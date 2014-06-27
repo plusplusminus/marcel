@@ -731,4 +731,41 @@ if ( ! function_exists( 'image_menu' ) ) {
     }
 }
 
+if (!function_exists('wp_get_gallery_content'))
+{
+    function wp_get_gallery_content($type=0)
+    { 
+        global $post;
+        $post_thumbnail_id = get_post_thumbnail_id( $post->ID );
+        $args = array(
+            'order'          => 'ASC',
+            'post_type'      => 'attachment',
+            'post_parent'    => $post->ID,
+            'post_mime_type' => 'image',
+            'numberposts'    => -1,
+            'orderby' => 'menu_order',
+            //'exclude'=>$post_thumbnail_id
+        );
+
+        $attachments = get_posts($args);  
+        ?>
+            <div id="slider" class="objects">
+                
+                <?php foreach ($attachments as $attachment) { $count++; ?>
+                    <div class="object">
+                        <?php $image_attributes = wp_get_attachment_image_src( $attachment->ID,'large'); ?>
+                        <?php $image_attributes_1 = wp_get_attachment_image_src( $attachment->ID,'full'); ?>
+                        <a href="<?php echo $image_attributes_1[0];?>" rel="prettyphoto">
+                            <img class="img-responsive" src="<?php echo $image_attributes[0]; ?>">
+                        </a>
+                    </div>
+                    
+                <?php } ?>
+                <div class="clearfix"></div>
+            </div>
+        
+        <?php wp_reset_query();
+    }
+}
+
 ?>

@@ -19,7 +19,7 @@
 		?>
 		<?php if ( $the_query->have_posts() ) { $count = 0;?>
 			<?php $num = $the_query->post_count; ?>
-			<div class="flexslider-grid">
+			<div class="flexslider flexslider-grid">
 				<ul class="slides">
 					<li>
 						<div class="row">
@@ -31,7 +31,7 @@
 								<div class="gallery-content">
 									<div class="title-container">
 										<h4 class='title'><?php the_title();?></h4>
-										<?php the_excerpt();?>
+										<a href="<?php the_permalink();?>" class="btn btn-xs btn-primary">View Gallery</a>
 									</div>
 								</div>
 							</div>
