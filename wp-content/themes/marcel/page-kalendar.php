@@ -1,14 +1,13 @@
-<?php /* Template Name: About */  ?>
+<?php /* Template Name: Kalendar */  ?>
 <?php global $post; ?>
 
-<?php $page =  get_post_meta($post->ID,'_ppm_kalendar_page',true) ?>
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="about">
 	<div class="container">
 		
 		<?php
 
-		$the_query = new WP_Query( array('page_id'=>$page,'post_type'=>'page'));
+		$the_query = new WP_Query( array('page_id'=>$pid,'post_type'=>'page'));
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>
@@ -33,3 +32,4 @@
 
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

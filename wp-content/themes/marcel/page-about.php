@@ -1,14 +1,12 @@
-<?php /* Template Name: About */  ?>
+<?php /* Template Name: About - 1 */  ?>
 <?php global $post; ?>
-
-<?php $page =  get_post_meta($post->ID,'_ppm_about_page',true) ?>
-
+<?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="about" class="bg-light">
 	<div class="container">
 		
 		<?php
 
-		$the_query = new WP_Query( array('page_id'=>$page,'post_type'=>'page'));
+		$the_query = new WP_Query( array('page_id'=>$pid,'post_type'=>'page'));
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>
@@ -32,7 +30,7 @@
 					<?php if (is_array($items)) : ?>
 						<ul class="nav nav-justified text-center">
 							<?php foreach ($items as $key => $value) { ?>
-								<li><span class="fa <?php echo $value['icon'];?>"></span><h4><?php echo $value['title'];?></h4><small><?php echo $value['description'];?></small></li>
+								<li><span class="icon <?php echo $value['icon'];?>"></span><h4><?php echo $value['title'];?></h4><small><?php echo $value['description'];?></small></li>
 							<?php } ?>
 						</ul>
 					<?php endif; ?>
@@ -46,3 +44,4 @@
 
 	</div> <!-- container -->
 </section><!--/.services-->
+<?php if (!(is_home() || is_front_page())) { get_footer(); } ?>

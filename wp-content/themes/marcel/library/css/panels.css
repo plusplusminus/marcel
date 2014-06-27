@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: .box-shadow is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\panels.less[90m on line 12, column 3:[39m \A [90m11   border-radius: @panel-border-radius;[39m \A 12   [7m[31m[1m.[22mbox-shadow(0 1px 1px rgba(0,0,0,.05));[39m[27m \A [90m13 }[39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }

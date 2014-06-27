@@ -29,28 +29,15 @@
 		ADDING MODEL HERE
 	 ************************************* -->
 
-		<!-- Large modal -->
-
-		<!-- div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg">
-		    <div class="modal-content">
-		      ...
-		    </div>
-		  </div>
-		</div> -->
-
-
-<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade" id="ModalVideo" tabindex="-1" role="dialog" aria-labelledby="AboutVideo" aria-hidden="true">
     <div class="modal-dialog modal-lg">
 			<div class="modal-content">
 	 	        <div class="video-container">
-		        	<iframe width="100%" height="100%" src="//www.youtube.com/embed/kV2owLAw-6Y?rel=0" frameborder="0" allowfullscreen></iframe>
+		        	<iframe width="853" height="480" src="//www.youtube.com/embed/kV2owLAw-6Y?rel=0" frameborder="0" allowfullscreen></iframe>
 		        </div>
 	        </div> 
     </div>
 </div>
-
-
 
 	</footer> <!-- end footer -->
 

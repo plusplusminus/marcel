@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: Home - 1
 */
 ?>
 
@@ -86,7 +86,6 @@ Template Name: Home
 
 <?php get_template_part('page','cup'); ?>
 
-<?php get_template_part('page','kontakt'); ?>
-
+<?php image_menu('home-layout'); ?>
 
 <?php get_footer(); ?>

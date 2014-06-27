@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: .opacity is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\tooltip.less[90m on line 14, column 3:[39m \A [90m13   line-height: 1.4;[39m \A 14   [7m[31m[1m.[22mopacity(0);[39m[27m \A [90m15 [39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }

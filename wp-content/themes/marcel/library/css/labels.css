@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: variable @label-color is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\labels.less[90m on line 11, column 10:[39m \A [90m10   line-height: 1;[39m \A 11   color: [7m[31m[1m@[22mlabel-color;[39m[27m \A [90m12   text-align: center;[39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }

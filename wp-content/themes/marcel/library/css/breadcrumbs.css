@@ -1,8 +1,8 @@
-body:before { 
-                            white-space: pre; 
-                            font-family: monospace; 
-                            content: 'Less NameError: variable @breadcrumb-padding-vertical is undefined in \\Users\\iaanvn\\Sites\\netcms\\wp-content\\themes\\netcms\\library\\less\\bootstrap\\breadcrumbs.less on line 7, column 12: \A 6 .breadcrumb { \A 7   padding: @breadcrumb-padding-vertical @breadcrumb-padding-horizontal; \A 8   margin-bottom: @line-height-computed; \A  \A '; } 
-                            
-                            body * { 
-                            display: none; 
-                            } 
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: variable @breadcrumb-padding-vertical is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\breadcrumbs.less[90m on line 7, column 12:[39m \A [90m6 .breadcrumb {[39m \A 7   padding: [7m[31m[1m@[22mbreadcrumb-padding-vertical @breadcrumb-padding-horizontal;[39m[27m \A [90m8   margin-bottom: @line-height-computed;[39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }

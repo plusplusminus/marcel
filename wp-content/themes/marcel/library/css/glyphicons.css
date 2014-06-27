@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Less [31mNameError: variable @icon-font-path is undefined[39m[31m in [39mE:\\Program Files\\portableapps\\htdocs\\marcel\\wp-content\\themes\\marcel\\library\\less\\bootstrap\\glyphicons.less[90m on line 13, column 8:[39m \A [90m12   font-family: \'Glyphicons Halflings\';[39m \A 13   src: [7m[31m[1m~[22m"url(\'@{icon-font-path}@{icon-font-name}.eot\')";[39m[27m \A [90m14   src: ~"url(\'@{icon-font-path}@{icon-font-name}.eot?#iefix\') format(\'embedded-opentype\')",[39m[0m[0m \A  \A '; }
+
+  body * {
+  	display: none;
+  }
