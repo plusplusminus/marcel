@@ -1,13 +1,11 @@
 {
     "debug": false,
     "lintScripts": false,
-    "preprocessorLocations": [
-        "wp-content/themes/marcel/library/less"
-    ],
-    "preprocessorScriptOutput": "wp-content/themes/marcel/includes/js",
-    "preprocessorStyleOutput": "wp-content/themes/marcel/library/less",
-    "projectName": "Project Name",
-    "projectDescription": "Project Description",
+    "preprocessorLocations": null,
+    "preprocessorScriptOutput": null,
+    "preprocessorStyleOutput": null,
+    "projectName": null,
+    "projectDescription": null,
     "publishedId": null,
     "serverHostname": null,
     "serverPort": null,
@@ -16,7 +14,7 @@
     "templateDefaultPage": "index",
     "type": "simple",
     "useCompass": false,
-    "simpleModePartnerServer": "http://192.168.0.33:8888/",
+    "simpleModePartnerServer": null,
     "simpleModeFileTypes": null,
     "modelSource": null,
     "domain": null,
