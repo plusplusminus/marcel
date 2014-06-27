@@ -7,6 +7,7 @@ jQuery(document).ready(function(){
         parallax:true
     });
 
+    jQuery(".video-container").fitVids();
 
     jQuery('#erfolgeTabs a:first,#clubTabs a:first,#cupTabs a:first').tab('show');
 
@@ -58,6 +59,5 @@ jQuery(document).ready(function(){
         
 
     });
-
-
+  
 });
