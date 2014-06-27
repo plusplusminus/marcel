@@ -424,7 +424,7 @@ function cmb_sample_metaboxes( array $meta_boxes ) {
 
     $meta_boxes['contact_information'] = array(
         'id' => 'contact_information',
-        'title' => 'Contact Information',
+        'title' => 'Information',
         'pages' => array('page'), // post type
         'show_on' => array( 'key' => 'page-template', 'value' => 'page-about.php' ),
         'context' => 'normal', //  'normal', 'advanced', or 'side'

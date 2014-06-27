@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-	    var touch = Modernizr.touch;
+	var touch = Modernizr.touch;
 	jQuery('.home-image,.single-image').imageScroll({
         imageAttribute: (touch === true) ? 'image-mobile' : 'image',
         touch: touch,
@@ -13,17 +13,16 @@ jQuery(document).ready(function(){
 
     jQuery('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
       e.target // activated tab
-      console.log(jQuery(e.target.hash).find('.flexslider-caro'));
       jQuery(e.target.hash).find('.flexslider-caro').flexslider({
             animation: "slide",
             animationLoop: false,
             itemWidth: 140,
             itemMargin: 50
           });
+      jQuery(e.target.hash).find('.flexslider-grid').flexslider({animation: "fade",smoothHeight:false});
+    });
 
-      
-    })
-
+    jQuery("nav").sticky({topSpacing:0});
 
 	jQuery('body').scrollspy({ target: '.navbar-collapse' })
 
@@ -53,11 +52,10 @@ jQuery(document).ready(function(){
 	        jQuery("body").removeClass("stuck");
 	    }
 	});
+});
 
     jQuery(window).load(function(){
         jQuery('.flexslider-grid').flexslider({animation: "fade",smoothHeight:true});
         
 
     });
-  
-});
