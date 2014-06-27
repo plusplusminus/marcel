@@ -22,10 +22,10 @@
 								<div class="col-xs-2">
 									<div class="social">
 										<?php if(!empty($value['web_link'])) : ?>
-											<p><a href="<?php echo $value['web_link'];?>"><span class="fa fa-globe"></span></a></p>
+											<p><a href="<?php echo $value['web_link'];?>"><span class="icon-world"></span></a></p>
 										<?php endif; ?>
 										<?php if(!empty($value['facebook_link'])) : ?>
-											<p><a href="<?php echo $value['facebook_link'];?>"><span class="fa fa-facebook"></span></a></p>
+											<p><a href="<?php echo $value['facebook_link'];?>"><span class="icon-facebook"></span></a></p>
 										<?php endif; ?>
 									</div>
 								</div>
