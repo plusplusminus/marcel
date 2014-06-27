@@ -11,7 +11,7 @@
 		
 		<?php
 
-		$the_query = new WP_Query( array('post_type'=>'gallery','orderby' => 'menu_order', 'order' => 'ASC' ));
+		$the_query = new WP_Query( array('post_type'=>'gallery','posts_per_page'=>12));
 		$default = array('class'=>'img-responsive');
 		
 		// The Loop
@@ -36,7 +36,7 @@
 								</div>
 							</div>
 							<?php if (($count % 2 == 0)) echo '<div class="clearfix visible-sm"></div>'; ?>
-							<?php if (($count % 3 == 0)) echo '<div class="clearfix visible-md"></div>'; ?>
+							<?php if (($count % 3 == 0)) echo '<div class="clearfix visible-md visible-lg"></div>'; ?>
 							<?php if (($count % 6 == 0) && ($num != $count)) echo '</div></li><li><div class="row">'; ?>
 							<?php } ?>
 						</div>
