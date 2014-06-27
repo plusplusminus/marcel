@@ -1,13 +1,11 @@
 <?php /* Template Name: Cup */  ?>
 <?php global $post; ?>
 
-<?php $page =  get_post_meta($post->ID,'_ppm_cup_page',true) ?>
-
 <section id="cup" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
-			<div class="sub-heading"><?php echo get_the_title($page);?></div>
-			<?php $sub_heading = get_post_meta($page,'_ppm_sub_heading',true);?>
+			<div class="sub-heading"><?php echo get_the_title($pid);?></div>
+			<?php $sub_heading = get_post_meta($pid,'_ppm_sub_heading',true);?>
 			<h2><?php echo esc_attr($sub_heading);?></h2>
 		</header>
 		

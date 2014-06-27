@@ -1,14 +1,12 @@
 <?php /* Template Name: Home */  ?>
 <?php global $post; ?>
 
-<?php $page =  get_post_meta($post->ID,'_ppm_kalendar_page',true) ?>
-
 <section id="about">
 	<div class="container">
 		
 		<?php
 
-		$the_query = new WP_Query( array('page_id'=>$page,'post_type'=>'page'));
+		$the_query = new WP_Query( array('page_id'=>$pid,'post_type'=>'page'));
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>

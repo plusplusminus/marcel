@@ -26,7 +26,8 @@ jQuery(document).ready(function(){
 
 	jQuery('body').scrollspy({ target: '.navbar-collapse' })
 
-    jQuery('.menu-item-type-custom a,.scrollit').bind('click',function(event){
+    jQuery('.home .menu-item a').on('click',function(event){
+          event.preventDefault();
         var jQueryanchor = jQuery(this);
        /* $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -34,10 +35,10 @@ jQuery(document).ready(function(){
         
         
         jQuery('html, body').stop().animate({
-            scrollTop: jQuery(jQueryanchor.attr('href')).offset().top-125
+            scrollTop: jQuery(jQueryanchor.attr('title')).offset().top-82
         }, 1500);
         
-        event.preventDefault();
+      
     });
 
     jQuery(window).scroll(function() {    
@@ -55,7 +56,7 @@ jQuery(document).ready(function(){
 });
 
     jQuery(window).load(function(){
-        jQuery('.flexslider-grid').flexslider({animation: "fade",smoothHeight:true});
+        jQuery('.flexslider-grid').flexslider({animation: "fade",smoothHeight:false});
         
 
     });

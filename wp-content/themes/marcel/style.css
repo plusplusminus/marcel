@@ -8520,6 +8520,21 @@ body {
 #gallery .gallery-content .title-container p {
   color: #999999;
 }
+#blog .blog-content {
+  margin-bottom: 30px;
+}
+#blog .blog-content .title-container {
+  background-color: #333333;
+  padding: 5px 15px;
+  border-bottom: 2px solid #dfd800;
+}
+#blog .blog-content .title-container h4.title {
+  color: #dfd800;
+  margin-bottom: 5px;
+}
+#blog .blog-content .title-container p {
+  color: #999999;
+}
 #erfolge .title-container {
   background-color: #333333;
   padding: 5px 15px;
@@ -8808,7 +8823,7 @@ html[xmlns] .slides {
 .flex-direction-nav a {
   text-decoration: none;
   display: block;
-  width: 45px;
+  width: 44px;
   height: 45px;
   margin: -20px 0 0;
   position: absolute;
@@ -8823,19 +8838,19 @@ html[xmlns] .slides {
   transition: all .3s ease;
 }
 .flex-direction-nav .flex-prev {
-  left: 10px;
+  left: -50px;
 }
 .flex-direction-nav .flex-next {
-  right: 10px;
+  right: -50px;
   text-align: right;
 }
 .flexslider:hover .flex-prev {
   opacity: 1;
-  left: 10px;
+  left: -50px;
 }
 .flexslider:hover .flex-next {
   opacity: 1;
-  right: 10px;
+  right: -50px;
 }
 .flexslider:hover .flex-next:hover,
 .flexslider:hover .flex-prev:hover {
@@ -8940,11 +8955,11 @@ html[xmlns] .slides {
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
-    left: 10px;
+    left: -50px;
   }
   .flex-direction-nav .flex-next {
     opacity: 1;
-    right: 10px;
+    right: -50px;
   }
 }
 /*
