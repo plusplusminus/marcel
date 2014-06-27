@@ -32,7 +32,7 @@
 					<?php if (is_array($items)) : ?>
 						<ul class="nav nav-justified text-center">
 							<?php foreach ($items as $key => $value) { ?>
-								<li><span class="fa <?php echo $value['icon'];?>"></span><h4><?php echo $value['title'];?></h4><small><?php echo $value['description'];?></small></li>
+								<li><span class="<?php echo $value['icon'];?>"></span><h4><?php echo $value['title'];?></h4><small><?php echo $value['description'];?></small></li>
 							<?php } ?>
 						</ul>
 					<?php endif; ?>
