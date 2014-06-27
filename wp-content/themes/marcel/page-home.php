@@ -24,7 +24,7 @@ Template Name: Home
 				<div class="row">
 					<div class="col-md-offset-6 col-md-6">
 						<h2>Marcel Stauffer</h2>
-						<h2>The Blade</h2>
+						<h2 class="text-success">The Blade</h2>
 						<button class="btn btn-primary" data-toggle="modal" data-target="#basicModal">Video</button>
 					</div>
 				</div>
