@@ -3,7 +3,7 @@
 
 <?php $page =  get_post_meta($post->ID,'_ppm_cup_page',true) ?>
 
-<section id="team">
+<section id="cup" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
 			<div class="sub-heading"><?php echo get_the_title($page);?></div>
@@ -17,7 +17,7 @@
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>
-			<?php $html_header = '<ul class="nav nav-tabs" id="cupTabs">'; ?>
+			<?php $html_header = '<ul class="nav nav-tabs nav-justified" id="cupTabs">'; ?>
 			<?php $html_body = '<div class="tab-content">'; ?>
 			<?php while ( $the_query->have_posts() ) { $the_query->the_post(); $count++;?>
 

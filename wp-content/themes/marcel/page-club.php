@@ -4,13 +4,18 @@
 
 <?php $page =  get_post_meta($post->ID,'_ppm_club_page',true) ?>
 
-<section id="team">
+<section id="club">
 	<div class="container">
 		<header class="section-heading text-center">
-			<div class="sub-heading"><?php echo get_the_title($page);?></div>
+			<h2><?php echo get_the_title($page);?></h2>
 			<?php $sub_heading = get_post_meta($page,'_ppm_sub_heading',true);?>
-			<h2><?php echo esc_attr($sub_heading);?></h2>
+			<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
 		</header>
+		<div class="row">
+			<div class="col-md-2 col-md-offset-5">
+				<hr class="bg-dark">
+			</div>
+		</div>
 		
 		<?php
 
@@ -18,7 +23,7 @@
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>
-			<?php $html_header = '<ul class="nav nav-tabs" id="clubTabs">'; ?>
+			<?php $html_header = '<ul class="nav nav-tabs nav-justified" id="clubTabs">'; ?>
 			<?php $html_body = '<div class="tab-content">'; ?>
 			<?php while ( $the_query->have_posts() ) { $the_query->the_post(); $count++;?>
 
@@ -59,18 +64,25 @@
 												<div class="image-container">'.wp_get_attachment_image($value['image_id'],'full','',$default).'
 												</div>
 												<div class="row">
-													<div class="col-md-10">
-														<h4 class="title">'.$value['title'].'</h4>'.
-														wpautop($value['description']).'
+													<div class="col-md-12">
+														<div class="sponsors-content">
+															<div class="col-md-10">
+																<h4 class="title">'.$value['title'].'</h4>'.
+																wpautop($value['description']).'
+															</div>
+															<div class="col-md-2">
+																<div class="social">'; ?>
+																	<?php if(!empty($value['web_link'])) : ?>
+																		<?php $html_body .= '<p><a href="'.$value['web_link'].'"><span class="fa fa-globe"></span></a></p>'; ?>
+																	<?php endif; ?>
+																	<?php if(!empty($value['facebook_link'])) : ?>
+																		<?php $html_body .= '<p><a href="'.$value['facebook_link'].'"><span class="fa fa-facebook"></span></a></p>'; ?>
+																	<?php endif; ?>
+																
+															<?php $html_body .= '</div></div>
+														<div class="clearfix"></div>
+														</div>
 													</div>
-													<div class="col-md-2">'; ?>
-														<?php if(!empty($value['web_link'])) : ?>
-															<?php $html_body .= '<p><a href="'.$value['web_link'].'"><span class="fa fa-globe"></span></a></p>'; ?>
-														<?php endif; ?>
-														<?php if(!empty($value['facebook_link'])) : ?>
-															<?php $html_body .= '<p><a href="'.$value['facebook_link'].'"><span class="fa fa-facebook"></span></a></p>'; ?>
-														<?php endif; ?>
-													<?php $html_body .= '</div>
 												</div>
 											</div>'; ?>
 											<?php if (($count % 3 == 0) && ($num != $count)) $html_body .= '</div></li><li><div class="row">'; ?>

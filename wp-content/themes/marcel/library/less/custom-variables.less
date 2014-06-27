@@ -382,16 +382,15 @@
 @nav-open-link-hover-color:                 #fff;
 
 //== Tabs
-@nav-tabs-border-color:                     #ddd;
+@nav-tabs-border-color:                     transparent;
+@nav-tabs-link-hover-border-color:          transparent;
 
-@nav-tabs-link-hover-border-color:          @gray-lighter;
-
-@nav-tabs-active-link-hover-bg:             @body-bg;
+@nav-tabs-active-link-hover-bg:             transparent;
 @nav-tabs-active-link-hover-color:          @gray;
-@nav-tabs-active-link-hover-border-color:   #ddd;
+@nav-tabs-active-link-hover-border-color:   transparent;
 
-@nav-tabs-justified-link-border-color:            #ddd;
-@nav-tabs-justified-active-link-border-color:     @body-bg;
+@nav-tabs-justified-link-border-color:            transparent;
+@nav-tabs-justified-active-link-border-color:     transparent;
 
 //== Pills
 @nav-pills-border-radius:                   @border-radius-base;
@@ -452,7 +451,7 @@
 //## Define colors for form feedback states and, by default, alerts.
 
 @state-success-text:             #3c763d;
-@state-success-bg:               #dff0d8;
+@state-success-bg:               @brand-success;
 @state-success-border:           darken(spin(@state-success-bg, -10), 5%);
 
 @state-info-text:                #31708f;

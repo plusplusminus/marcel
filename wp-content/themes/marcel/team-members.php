@@ -22,7 +22,7 @@
 											<?php echo wpautop($value['description']);?>
 										</div>
 										<div class="col-md-2">
-											<div class="team-social">
+											<div class="social">
 												<?php if(!empty($value['web_link'])) : ?>
 													<p><a href="<?php echo $value['web_link'];?>"><span class="fa fa-globe"></span></a></p>
 												<?php endif; ?>

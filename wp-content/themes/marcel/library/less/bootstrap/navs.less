@@ -86,8 +86,12 @@
       line-height: @line-height-base;
       border: 1px solid transparent;
       border-radius: @border-radius-base @border-radius-base 0 0;
+      color: @gray;
       &:hover {
         border-color: @nav-tabs-link-hover-border-color @nav-tabs-link-hover-border-color @nav-tabs-border-color;
+        font-weight: bold;
+        background-color: transparent;
+        text-decoration: line-through;
       }
     }
 
@@ -101,6 +105,9 @@
         border: 1px solid @nav-tabs-active-link-hover-border-color;
         border-bottom-color: transparent;
         cursor: default;
+        font-weight: bold;
+        background-color: transparent;
+        text-decoration: line-through;
       }
     }
   }

@@ -3,7 +3,7 @@
 
 <?php $page =  get_post_meta($post->ID,'_ppm_gallery_page',true) ?>
 
-<section id="team">
+<section id="team" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
 			<div class="sub-heading"><?php echo get_the_title($page);?></div>
