@@ -1,8 +1,9 @@
+<?php /* Template Name: About */  ?>
 <?php global $post; ?>
 
 <?php get_header(); ?>
 
-<section id="single" class="bg-light">
+<section id="single-gallery" class="bg-light">
 	<div class="container">
 
 		<header class="section-heading text-center">
@@ -18,29 +19,26 @@
 		</header>
 
 		<div class="row">
+			<div class="col-md-12">
 
 		
-			<?php
+				<?php
 
-			if ( have_posts() ) { $count = 0;?>
-				<?php while ( have_posts() ) { the_post(); $count++;?>
-					
-					<div class="col-md-8">
-						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-							<div class="entry">
-								<?php the_content();?>
-							</div>
-						</article>
-					</div>
+				if ( have_posts() ) { $count = 0;?>
+					<?php while ( have_posts() ) { the_post(); $count++;?>
+						
+						<section class="masonry">
+							<?php wp_get_gallery_content(); ?>
+						</section>
 
-				 
-				<?php } ?>
-			<?php
-			}
-			wp_reset_postdata();
-			?>
+					 
+					<?php } ?>
+				<?php
+				}
+				wp_reset_postdata();
+				?>
 
-			<?php get_sidebar(); ?>
+			</div>
 
 		</div>
 

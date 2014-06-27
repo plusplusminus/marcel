@@ -16,14 +16,7 @@
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid transparent;
   white-space: nowrap;
-
-  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
-  border: 1px solid #d4d4d4;
-  text-transform: uppercase;
-
-  .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-round);
+  .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
   .user-select(none);
 
   &:focus {
@@ -80,27 +73,6 @@
   .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
 }
 
-// add gradient to alternate buttons
-// --------------------------------------------------
-
-.btn-default {
-#gradient > .vertical(darken(@btn-default-bg,20%),lighten(@btn-default-bg,5%));
-}
-.btn-primary {
-#gradient > .vertical(darken(@btn-primary-bg,20%),lighten(@btn-primary-bg,5%));
-}
-.btn-success {
-#gradient > .vertical(darken(@btn-success-bg,20%),lighten(@btn-success-bg,5%));
-}
-.btn-info {
-#gradient > .vertical(darken(@btn-info-bg,20%),lighten(@btn-info-bg,5%));
-}
-.btn-warning {
-#gradient > .vertical(darken(@btn-warning-bg,20%),lighten(@btn-warning-bg,5%));
-}
-.btn-danger {
-#gradient > .vertical(darken(@btn-danger-bg,20%),lighten(@btn-danger-bg,5%));
-}
 
 // Link buttons
 // -------------------------
@@ -147,14 +119,14 @@
 
 .btn-lg {
   // line-height: ensure even-numbered height of button next to large input
-  .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-round);
+  .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
 }
 .btn-sm {
   // line-height: ensure proper height of button next to small input
-  .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-round);
+  .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
 }
 .btn-xs {
-  .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-round);
+  .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
 }
 
 

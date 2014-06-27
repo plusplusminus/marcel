@@ -22,6 +22,8 @@ jQuery(document).ready(function(){
       jQuery(e.target.hash).find('.flexslider-grid').flexslider({animation: "fade",smoothHeight:false});
     });
 
+    jQuery('.masonry a[rel^="prettyPhoto"]').prettyPhoto({'social_tools':false});
+
     jQuery("nav").sticky({topSpacing:0});
 
 	jQuery('body').scrollspy({ target: '.navbar-collapse' })
@@ -57,6 +59,8 @@ jQuery(document).ready(function(){
 
     jQuery(window).load(function(){
         jQuery('.flexslider-grid').flexslider({animation: "fade",smoothHeight:false});
+
+         jQuery( '.objects' ).masonry( { itemSelector: '.object' } );
         
 
     });
