@@ -108,6 +108,38 @@
 	}
 }
 
+body {
+	padding-top: 0px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	.navbar-brand {
+		width: 80%;
+		@media (min-width: @screen-md) {
+			width:100%;
+		}
+	}
+	.navbar-collapse {
+		.navbar-nav {
+			padding-top: 15px;
+			padding-bottom:15px;
+			width: 60%;
+			@media (min-width: @screen-md) {
+			li {
+				width:20%;
+				a {
+					padding:0;
+					text-align: right;
+				}
+			}
+			}
+		}
+	}
+}
+
+
+
 .info-container{
 	background-color: @gray-darker;
 	border-bottom: 2px solid @brand-success;
@@ -154,6 +186,10 @@
 				}
 				small{
 					color: @gray-light;
+				}
+				@media (max-width:@screen-sm) {
+					width: 50%;
+					float:left;
 				}
 			}
 		}
@@ -221,6 +257,26 @@
 	}
 }
 
+//TEAM
+#gallery{
+	.gallery-content {
+		margin-bottom: 30px;
+		.title-container{
+			background-color: @gray-dark;
+			padding: 5px 15px;
+			border-bottom: 2px solid @brand-success;
+			h4.title{
+				color: @brand-success;
+				margin-bottom: 5px;
+			}
+			p{
+				color: @gray-light;
+			}
+		}
+	}
+}
+
+
 //ERFLOGGE
 #erfolge{
 	.title-container{
@@ -235,6 +291,20 @@
 			color: @gray-light;
 		}
 	}
+	.btn-group {
+		display: block;
+	}
+	.nav {
+		display: none;
+	}
+	@media (min-width: @screen-sm) {
+		.btn-group {
+			display: none;
+		}
+		.nav {
+			display: block;
+		}
+	}
 }
 
 //CLUB
@@ -243,6 +313,24 @@
 		.info-container();
 	}
 }
+// Cup 
+#cup {
+	.btn-group {
+		display: block;
+	}
+	.nav {
+		display: none;
+	}
+	@media (min-width: @screen-sm) {
+		.btn-group {
+			display: none;
+		}
+		.nav {
+			display: block;
+		}
+	}
+}
+
 // GRAVITY FORMS
 .gform_wrapper{
 	.gform_button{

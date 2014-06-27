@@ -1,4 +1,4 @@
-<?php /* Template Name: About */  ?>
+<?php /* Template Name: Home */  ?>
 <?php global $post; ?>
 
 <?php $page =  get_post_meta($post->ID,'_ppm_kalendar_page',true) ?>

@@ -24,8 +24,13 @@
 		if ( $the_query->have_posts() ) { $count = 0;?>
 			<?php $html_header = '<ul class="nav nav-tabs nav-justified" id="erfolgeTabs">'; ?>
 			<?php $html_body = '<div class="tab-content">'; ?>
+			<?php $html_button = '<div class="btn-group clearfix">
+									  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+									    Select <span class="caret"></span>
+									  </button>
+									  <ul class="dropdown-menu" role="menu">'; ?>
 			<?php while ( $the_query->have_posts() ) { $the_query->the_post(); $count++;?>
-
+			<?php $html_button .= '<li><a href="#section-'.$post->ID.'" data-toggle="tab">'.get_the_title().'</a></li>'; ?>
   			<?php $html_header .= '<li><a href="#section-'.$post->ID.'" data-toggle="tab">'.get_the_title().'</a></li>'; ?>
   			<?php $html_body .= '<div class="tab-pane fade" id="section-'.$post->ID.'">';?>
   			<?php $items = get_post_meta($post->ID,'_ppm_erfolge_information',true); ?>
@@ -36,7 +41,7 @@
 				<?php $inner .= '<div class="row">'; ?>
 				<?php foreach ($items as $key => $value) { $count++; ?>
 
-					<?php $inner .=	'<div class="col-md-4">
+					<?php $inner .=	'<div class="col-xs-6">
 										<div class="image-container">'.wp_get_attachment_image($value['image_id'],'full','',$default).'
 										</div>
 										<div class="title-container">
@@ -44,7 +49,8 @@
 											'.wpautop($value['description']).'
 										</div>
 									</div>';
-						 if (($count % 3 == 0)) $inner .= '<div class="clearfix"></div>'; ?>
+						 if (($count % 2 == 0)) $inner .= '<div class="clearfix visible-sm"></div>'; 
+						 if (($count % 3 == 0)) $inner .= '<div class="clearfix visible-md"></div>'; ?>
 				<?php } ?>
 				<?php $inner .= '</div>'; ?>
 			<?php endif; ?>
@@ -55,11 +61,13 @@
 			<?php } ?>
 			
 			<?php $html_header .= '</ul>';?>
+			<?php $html_button .= '</ul></div>';?>
 		<?php
 		}
 		wp_reset_postdata();
 		?>
 		<?php echo $html_header; ?>
+		<?php echo $html_button; ?>
 		<?php echo $html_body; ?>
 		
 

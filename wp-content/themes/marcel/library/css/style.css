@@ -8321,6 +8321,34 @@ This is just for the sample BREW site.  Feel free to delete
     font-size: 20px;
   }
 }
+body {
+  padding-top: 0px;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .navbar-brand {
+  width: 80%;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    width: 100%;
+  }
+}
+.navbar .navbar-collapse .navbar-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 60%;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-collapse .navbar-nav li {
+    width: 20%;
+  }
+  .navbar .navbar-collapse .navbar-nav li a {
+    padding: 0;
+    text-align: right;
+  }
+}
 .info-container {
   background-color: #222222;
   border-bottom: 2px solid #dfd800;
@@ -8355,6 +8383,12 @@ This is just for the sample BREW site.  Feel free to delete
 }
 #about .about-footer .nav li small {
   color: #999999;
+}
+@media (max-width: 768px) {
+  #about .about-footer .nav li {
+    width: 50%;
+    float: left;
+  }
 }
 #auto a {
   position: relative;
@@ -8415,6 +8449,21 @@ This is just for the sample BREW site.  Feel free to delete
   color: #999999;
   margin-bottom: 0px;
 }
+#gallery .gallery-content {
+  margin-bottom: 30px;
+}
+#gallery .gallery-content .title-container {
+  background-color: #333333;
+  padding: 5px 15px;
+  border-bottom: 2px solid #dfd800;
+}
+#gallery .gallery-content .title-container h4.title {
+  color: #dfd800;
+  margin-bottom: 5px;
+}
+#gallery .gallery-content .title-container p {
+  color: #999999;
+}
 #erfolge .title-container {
   background-color: #333333;
   padding: 5px 15px;
@@ -8426,6 +8475,20 @@ This is just for the sample BREW site.  Feel free to delete
 }
 #erfolge .title-container p {
   color: #999999;
+}
+#erfolge .btn-group {
+  display: block;
+}
+#erfolge .nav {
+  display: none;
+}
+@media (min-width: 768px) {
+  #erfolge .btn-group {
+    display: none;
+  }
+  #erfolge .nav {
+    display: block;
+  }
 }
 #club .sponsors-content {
   background-color: #222222;
@@ -8449,6 +8512,20 @@ This is just for the sample BREW site.  Feel free to delete
 }
 #club .sponsors-content .social a .fa {
   color: #fff;
+}
+#cup .btn-group {
+  display: block;
+}
+#cup .nav {
+  display: none;
+}
+@media (min-width: 768px) {
+  #cup .btn-group {
+    display: none;
+  }
+  #cup .nav {
+    display: block;
+  }
 }
 .gform_wrapper .gform_button {
   display: inline-block;

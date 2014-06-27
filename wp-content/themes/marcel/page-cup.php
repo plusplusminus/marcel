@@ -19,8 +19,13 @@
 		if ( $the_query->have_posts() ) { $count = 0;?>
 			<?php $html_header = '<ul class="nav nav-tabs nav-justified" id="cupTabs">'; ?>
 			<?php $html_body = '<div class="tab-content">'; ?>
+			<?php $html_button = '<div class="btn-group clearfix">
+									  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+									    Select <span class="caret"></span>
+									  </button>
+									  <ul class="dropdown-menu" role="menu">'; ?>
 			<?php while ( $the_query->have_posts() ) { $the_query->the_post(); $count++;?>
-
+			<?php $html_button .= '<li><a href="#section-'.$post->ID.'" data-toggle="tab">'.get_the_title().'</a></li>'; ?>
   			<?php $html_header .= '<li><a href="#section-'.$post->ID.'" data-toggle="tab">'.get_the_title().'</a></li>'; ?>
   			<?php $html_body .= '<div class="tab-pane fade" id="section-'.$post->ID.'">';?>
   			<?php $items = get_post_meta($post->ID,'_ppm_cup_information',true); ?>
@@ -51,13 +56,14 @@
 			<?php $inner = ''; ?>
 			<?php $html_body .= '</div>';?>
 			<?php } ?>
-			
+			<?php $html_button .= '</ul></div>';?>
 			<?php $html_header .= '</ul>';?>
 		<?php
 		}
 		wp_reset_postdata();
 		?>
 		<?php echo $html_header; ?>
+		<?php echo $html_button; ?>
 		<?php echo $html_body; ?>
 		
 
