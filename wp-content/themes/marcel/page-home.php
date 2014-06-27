@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: Home - 1
 */
 ?>
 
@@ -26,9 +26,6 @@ Template Name: Home
 				<button class="btn btn-primary" data-toggle="modal" data-target="#ModalVideo">Video</button>
 			</div>
 		</div><!--/.inner-->
-		<div class="homebanner-buttons hidden-xs hidden-sm">
-			
-		</div>
 	</div>
 </div>
 
@@ -55,37 +52,15 @@ Template Name: Home
 		</div>
 
 		<div class="navbar-collapse collapse navbar-responsive-collapse">
-			<?php if (is_front_page() || is_home()) : ?>
-				<?php bones_main_nav(); ?>
-			<?php else : ?>
+			
 				<?php secondary_nav(); ?>
-			<?php endif; ?>
+		
 		</div>
 	  </div>
 	</div> 
 </nav>
 
-<?php get_template_part('page','about'); ?>
-
-<?php get_template_part('page','auto'); ?>
-
-<?php get_template_part('page','bike'); ?>
-
-<?php get_template_part('page','team'); ?>
-
-<?php get_template_part('page','gallery'); ?>
-
-<?php get_template_part('page','press'); ?>
-
-<?php get_template_part('page','erfolge'); ?>
-
-<?php get_template_part('page','club'); ?>
-
-<?php get_template_part('page','kalendar'); ?>
-
-<?php get_template_part('page','cup'); ?>
-
-<?php get_template_part('page','kontakt'); ?>
+<?php image_menu('home-layout'); ?>
 
 
 <?php get_footer(); ?>
