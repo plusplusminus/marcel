@@ -14,7 +14,7 @@
 				<header class="section-heading text-center">
 					<div class="sub-heading"><?php echo get_the_title($post->ID);?></div>
 					<?php $sub_heading = get_post_meta($post->ID,'_ppm_sub_heading',true);?>
-					<h2><?php echo esc_attr($sub_heading);?></h2>
+					<h3><?php echo esc_attr($sub_heading);?></h3>
 				</header>
 
 				<section class="items">

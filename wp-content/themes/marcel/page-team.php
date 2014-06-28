@@ -7,6 +7,11 @@
 			<h2><?php echo get_the_title($pid);?></h2>
 			<?php $sub_heading = get_post_meta($pid,'_ppm_sub_heading',true);?>
 			<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5">
+					<hr class="bg-dark">
+				</div>
+			</div>
 		</header>
 		
 		<?php

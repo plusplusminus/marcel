@@ -15,12 +15,12 @@
 					<h2><?php echo get_the_title($post->ID);?></h2>
 					<?php $sub_heading = get_post_meta($post->ID,'_ppm_sub_heading',true);?>
 					<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
-				</header>
-				<div class="row">
-					<div class="col-md-2 col-md-offset-5">
-						<hr>
+					<div class="row">
+						<div class="col-md-2 col-md-offset-5">
+							<hr>
+						</div>
 					</div>
-				</div>
+				</header>
 
 				<section class="image">
 					<?php the_post_thumbnail('full',$default ); ?>

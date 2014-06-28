@@ -4,9 +4,14 @@
 <section id="cup" class="bg-light">
 	<div class="container">
 		<header class="section-heading text-center">
-			<div class="sub-heading"><?php echo get_the_title($pid);?></div>
+			<h2><?php echo get_the_title($pid);?></h2>
 			<?php $sub_heading = get_post_meta($pid,'_ppm_sub_heading',true);?>
-			<h2><?php echo esc_attr($sub_heading);?></h2>
+			<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5">
+					<hr class="bg-dark">
+				</div>
+			</div>
 		</header>
 		
 		<?php

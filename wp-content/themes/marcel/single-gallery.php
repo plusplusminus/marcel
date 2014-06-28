@@ -16,6 +16,11 @@
 					<span class="category"><?php the_category();?></span>
 				</p>
 			</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5">
+					<hr class="bg-dark">
+				</div>
+			</div>
 		</header>
 
 		<div class="row">

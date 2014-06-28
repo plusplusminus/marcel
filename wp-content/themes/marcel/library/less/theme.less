@@ -1,4 +1,4 @@
-// Section Heading
+
 /*header*/
 .vertical{
 	background: transparent;
@@ -33,29 +33,34 @@
 }
 
 .bg-dark{
-	background-color: @gray-light;
-	border-color: @gray-light;
+	background-color: @gray-lighter;
+	border-color: @gray-lighter;
 }
 
 .section-heading{
 	text-transform: uppercase;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+	h2{
+		text-transform: none;
+		font-weight: 700;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		font-size: @font-size-h1;
+		@media (min-width:@screen-md){
+			margin-top: 30px;
+			margin-bottom: 0px;
+		}
+	}
 	.sub-heading{
 		position: relative;
 		display: block;
-		font-weight: bold;
-		font-size: @font-size-base;
-		color:@gray-light;
-	}
-	h2{
-		font-weight: bold;
-		margin-top: 15px;
-		margin-bottom: 15px;
+		font-weight: 100;
 		font-size: @font-size-h2;
-		@media (min-width:@screen-md){
-			margin-top: 30px;
-			margin-bottom: 30px;
-		}
+		color:@gray-light;
+		text-transform: none;
+	}
+	hr{
+		border-width: 2px;
 	}
 }
 
@@ -170,10 +175,22 @@ body {
 
 // HOME PAGE
 
-		.home-hero{
-			height: 100%;
+.home-hero{
+	height: 100%;
+	text-align: left;
+	h1{
+		text-transform: uppercase;	
+		margin: 0px;
+		font-weight: 700;
+		&.text-success{
+			margin-bottom: 30px;
 		}
-// MODAL VIDEO
+		&.text-default{
+			color: #fff;
+		}
+	}
+}
+
 #ModalVideo{ 
 	margin-top: 150px;		
 }
@@ -181,6 +198,7 @@ body {
 //ABOUT PAGE
 #about{
 	.about-footer{
+		margin-top: 50px;
 		.nav{
 			li{
 				span.icon{
@@ -343,7 +361,7 @@ body {
 		.info-container();
 	}
 }
-// Cup 
+// CUP 
 #cup {
 	.btn-group {
 		display: block;
@@ -358,6 +376,14 @@ body {
 		.nav {
 			display: block;
 		}
+	}
+}
+
+// CONTACT
+
+#contact{
+	.contact-container{
+		padding: 50px 40px 40px 40px;
 	}
 }
 
@@ -382,11 +408,10 @@ body {
 	}
 
 	.gform_fields .gfield input[type=text], .gform_fields .gfield textarea{
-		text-transform: uppercase;
-		border:1px solid #858585;
+		border:2px solid @gray-lighter;
 		margin-bottom: 20px;
-		padding: 10px;
-		color: #c9c9c9;
+		padding: 15px;
+		color: @gray-dark;
 	}
 	.gform_footer{
 		margin-top: 0px;
@@ -404,7 +429,9 @@ body {
 	padding: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	color: @brand-primary;
+	color: @brand-success;
+	text-transform: uppercase;
+	font-style: italic;
 }
 
 .masonry{

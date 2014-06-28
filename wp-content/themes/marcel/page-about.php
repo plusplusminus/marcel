@@ -15,14 +15,21 @@
 					<h2><?php echo get_the_title($post->ID);?></h2>
 					<?php $sub_heading = get_post_meta($post->ID,'_ppm_sub_heading',true);?>
 					<div class="sub-heading"><?php echo esc_attr($sub_heading);?></div>
+					<div class="row">
+						<div class="col-md-2 col-md-offset-5">
+							<hr>
+						</div>
+					</div>
 				</header>
 
-				<div class="col-md-8 col-md-offset-2">
-					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-						<div class="entry">
-							<?php the_content();?>
-						</div>
-					</article>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+							<div class="entry text-center">
+								<?php the_content();?>
+							</div>
+						</article>
+					</div>
 				</div>
 
 				<footer class="about-footer">
