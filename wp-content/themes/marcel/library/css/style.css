@@ -2015,7 +2015,7 @@ select[multiple].input-lg {
 }
 .btn:hover,
 .btn:focus {
-  color: #333333;
+  color: #ffffff;
   text-decoration: none;
 }
 .btn:active,
@@ -2036,18 +2036,18 @@ fieldset[disabled] .btn {
   box-shadow: none;
 }
 .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #333333;
-  background-color: #ebebeb;
-  border-color: #adadad;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #e0e0e0;
 }
 .btn-default:active,
 .btn-default.active,
@@ -2069,12 +2069,12 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  background-color: transparent;
+  border-color: #ffffff;
 }
 .btn-default .badge {
-  color: #ffffff;
-  background-color: #333333;
+  color: transparent;
+  background-color: #ffffff;
 }
 .btn-primary {
   color: #ffffff;
@@ -5306,7 +5306,7 @@ body {
 }
 .gform_wrapper .gform_button:hover,
 .gform_wrapper .gform_button:focus {
-  color: #333333;
+  color: #ffffff;
   text-decoration: none;
 }
 .gform_wrapper .gform_button:active,
