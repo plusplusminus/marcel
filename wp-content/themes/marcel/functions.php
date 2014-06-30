@@ -125,7 +125,7 @@ function secondary_nav() {
     ));
 } /* end bones main nav */
 
-//add_filter( 'cmb_meta_boxes', 'cmb_sample_metaboxes' );
+add_filter( 'cmb_meta_boxes', 'cmb_sample_metaboxes' );
 /**
  * Define the metabox and field configurations.
  *

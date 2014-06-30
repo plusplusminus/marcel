@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"is_sin",
+				"is_singular"
+			],
+			[
+				"screen",
+				"screen-sm"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
 				"mem",
 				"member_list"
 			],
@@ -28,10 +52,6 @@
 				"the_post_thumbnail"
 			],
 			[
-				"te",
-				"text-transform"
-			],
-			[
 				"tex",
 				"text-decoration"
 			],
@@ -46,10 +66,6 @@
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"wp_set_post",
@@ -118,10 +134,6 @@
 			[
 				"bac",
 				"background-image"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"r",
@@ -502,18 +514,6 @@
 			[
 				"out",
 				"outputarr"
-			],
-			[
-				"quer",
-				"query_args"
-			],
-			[
-				"posts",
-				"posts_array"
-			],
-			[
-				"po",
-				"posts_array"
 			]
 		]
 	},
@@ -523,31 +523,71 @@
 			"file": "wp-content/themes/marcel/page-home.php",
 			"settings":
 			{
-				"buffer_size": 2679,
+				"buffer_size": 124,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/marcel/page-cup.php",
+			"file": "wp-content/themes/marcel/header.php",
 			"settings":
 			{
-				"buffer_size": 2253,
+				"buffer_size": 5465,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/marcel/page-erfolge.php",
+			"file": "wp-content/themes/marcel/page-kalendar.php",
 			"settings":
 			{
-				"buffer_size": 2233,
+				"buffer_size": 1146,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/marcel/page-club.php",
+			"file": "wp-content/themes/marcel/page-kontakt.php",
 			"settings":
 			{
-				"buffer_size": 4964,
+				"buffer_size": 1845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-press.php",
+			"settings":
+			{
+				"buffer_size": 1805,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-team.php",
+			"settings":
+			{
+				"buffer_size": 1038,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/team-members.php",
+			"settings":
+			{
+				"buffer_size": 1611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/style.css",
+			"settings":
+			{
+				"buffer_size": 235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/functions.php",
+			"settings":
+			{
+				"buffer_size": 35980,
 				"line_ending": "Unix"
 			}
 		},
@@ -560,50 +600,10 @@
 			}
 		},
 		{
-			"file": "wp-content/themes/marcel/page-gallery.php",
-			"settings":
-			{
-				"buffer_size": 1436,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "wp-content/themes/marcel/includes/js/ppm.js",
 			"settings":
 			{
-				"buffer_size": 1771,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcel/functions.php",
-			"settings":
-			{
-				"buffer_size": 33869,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcel/page-gastebuch.php",
-			"settings":
-			{
-				"buffer_size": 1073,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcel/page-kontakt.php",
-			"settings":
-			{
-				"buffer_size": 1744,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcel/page-press.php",
-			"settings":
-			{
-				"buffer_size": 1575,
+				"buffer_size": 2026,
 				"line_ending": "Unix"
 			}
 		},
@@ -611,30 +611,119 @@
 			"file": "wp-content/themes/marcel/library/less/theme.less",
 			"settings":
 			{
-				"buffer_size": 6840,
+				"buffer_size": 22417,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/marcel/team-members.php",
+			"file": "wp-content/themes/marcel/includes/js/third-party.js",
 			"settings":
 			{
-				"buffer_size": 1334,
+				"buffer_size": 85818,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"file": "wp-content/themes/marcel/single-gallery.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1213,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/marcel/header.php",
+			"file": "wp-content/themes/marcel/single.php",
 			"settings":
 			{
-				"buffer_size": 3264,
+				"buffer_size": 1256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/library/less/style.less",
+			"settings":
+			{
+				"buffer_size": 3600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/archive.php",
+			"settings":
+			{
+				"buffer_size": 2685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-club.php",
+			"settings":
+			{
+				"buffer_size": 5422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-blog.php",
+			"settings":
+			{
+				"buffer_size": 1763,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-bike.php",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-erfolge.php",
+			"settings":
+			{
+				"buffer_size": 2985,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-cup.php",
+			"settings":
+			{
+				"buffer_size": 2909,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-gallery.php",
+			"settings":
+			{
+				"buffer_size": 1823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/library/less/bootstrap/buttons.less",
+			"settings":
+			{
+				"buffer_size": 3529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-auto.php",
+			"settings":
+			{
+				"buffer_size": 1624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcel/page-about.php",
+			"settings":
+			{
+				"buffer_size": 1861,
 				"line_ending": "Unix"
 			}
 		}
@@ -676,23 +765,38 @@
 	},
 	"file_history":
 	[
+		"/Users/admin/Documents/Sites/marcel/.gitignore",
+		"/Users/admin/Documents/Sites/marcel/mixture.json",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-cup.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-blog.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-about.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/single.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-bike.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-gastebuch.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/header.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/includes/js/ppm.js",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-erfolge.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/team-sponsors.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/team-members.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/includes/js/third-party.js",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/library/less/theme.less",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-press.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-kontakt.php",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-kalendar.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/functions.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-home.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-gallery.php",
+		"/Users/admin/Documents/Sites/marcel/wp-config.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-club.php",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/library/less/style.less",
+		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/library/css/style.css",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/club/club-info-heft.php",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/club/club-club-4.php",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/club/club-pressemappe.php",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/club/club-sponsoren.php",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/club/club-mitgliederliste.php",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-gallery.php",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/functions.php",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/library/less/theme.less",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-bike.php",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-auto.php",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/includes/js/ppm.js",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/team-sponsors.php",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/team-members.php",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-about.php",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/page-team.php",
-		"/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel/includes/js/third-party.js",
 		"/Users/admin/Documents/Sites/marcel/wp-content/themes/plussed/page-home.php",
 		"/Users/admin/Downloads/jquery-ias.min.js",
 		"/Users/admin/Documents/Sites/dev/tpb/mixture.json",
@@ -788,22 +892,7 @@
 		"/Users/admin/Documents/Sites/dev/retutpro/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php",
 		"/Users/admin/Documents/Sites/dev/tpb/wp-content/themes/tpbv3/includes/cpt/theme-cpt-weddings.php",
 		"/Users/admin/Documents/Sites/dev/neverflycoachagain/wp-content/themes/nfca/css/less/theme.less",
-		"/Users/admin/Documents/Sites/dev/tpb/wp-content/themes/tpb/includes/theme-actions.php",
-		"/Users/admin/Documents/Sites/dev/retutpro/wp-content/plugins/woocommerce/includes/shipping/free-shipping/class-wc-shipping-free-shipping.php",
-		"/Users/admin/Documents/Sites/dev/retutpro/wp-content/themes/bootstrap/woocommerce/single-product-reviews.php",
-		"/Users/admin/Documents/Sites/dev/retutpro/wp-content/themes/bootstrap/css/less/forms.less",
-		"/Users/admin/Documents/Sites/dev/neverflycoachagain/wp-content/themes/nfca/css/less/core.less",
-		"/Users/admin/Documents/Sites/dev/neverflycoachagain/wp-content/themes/nfca/css/untitled",
-		"/Users/admin/Documents/Sites/dev/tpb/wp-content/themes/tpbv3/taxonomy-wedding-venue.php",
-		"/Users/admin/Documents/Sites/dev/tpb/wp-content/themes/tpbv3/includes/js/general.js",
-		"/Users/admin/Documents/Sites/dev/tpb/wp-content/themes/tpbv3/includes/theme-js.php",
-		"/Users/admin/Documents/Sites/dev/propertycloud/wp-includes/default-widgets.php",
-		"/Users/admin/Documents/Sites/dev/propertycloud/wp-includes/general-template.php",
-		"/Users/admin/Documents/Sites/dev/operfect/wp-content/plugins/woocommerce/woocommerce-template.php",
-		"/Users/admin/Documents/Sites/dev/operfect/wp-content/themes/md_sam/woocommerce/myaccount/my-listing.php",
-		"/Users/admin/Documents/Sites/dev/operfect/wp-content/themes/md_sam/woocommerce/content-product.php",
-		"/Users/admin/Documents/Sites/dev/operfect/wp-content/themes/md_sam/woocommerce/content-single-product.php",
-		"/Users/admin/Documents/Sites/dev/operfect/wp-content/themes/md_sam/functions.php"
+		"/Users/admin/Documents/Sites/dev/tpb/wp-content/themes/tpb/includes/theme-actions.php"
 	],
 	"find":
 	{
@@ -814,6 +903,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"",
 			"/Users/admin/Documents/Sites/dev/propertycloud",
 			"/Users/admin/Documents/Sites/dev/retutpro/wp-content/plugins/woocommerce",
 			"/Users/admin/Documents/Sites/dev/retutpro/wp-content/themes/bootstrap",
@@ -914,6 +1004,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"grid",
+			"<?php if (is_page()) { get_header(); $pid = $post->ID; } ?>",
+			"<?php if (is_page()) { get_header(); $pid = $post->ID; ?>",
+			"flexslider",
+			"contact",
 			"flexslider",
 			"erfol",
 			"register_po",
@@ -1036,12 +1131,7 @@
 			"vendor details",
 			"post_type",
 			"details",
-			"button",
-			"woocommerce_template_single_title",
-			"woocommerce_get_product_thumbnail",
-			"woocommerce_template_loop_product_thumbnail",
-			"woocommerce_show_vendor",
-			"store"
+			"button"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1049,6 +1139,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<?php if (is_singular('page')) { get_header(); $pid = $post->ID; } ?>",
+			"<?php if (is_page()) { get_header(); $pid = $post->ID; } ?>",
 			"Tutorial",
 			"tutorial",
 			"Tutorial",
@@ -1110,7 +1202,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -1119,15 +1211,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2679,
+						"buffer_size": 124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2102,
-								2102
+								62,
+								62
 							]
 						],
 						"settings":
@@ -1139,29 +1231,87 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/marcel/page-cup.php",
+					"file": "wp-content/themes/marcel/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2253,
+						"buffer_size": 5465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								4150,
+								4150
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/marcel/page-kalendar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/marcel/page-kontakt.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1689,
+								1689
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1172,48 +1322,77 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "wp-content/themes/marcel/page-erfolge.php",
+					"buffer": 4,
+					"file": "wp-content/themes/marcel/page-press.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2233,
+						"buffer_size": 1805,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1497,
-								1497
+								1547,
+								1547
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 414.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "wp-content/themes/marcel/page-club.php",
+					"buffer": 5,
+					"file": "wp-content/themes/marcel/page-team.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4964,
+						"buffer_size": 1038,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
+								862,
+								862
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/marcel/team-members.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
 								0
 							]
 						],
@@ -1230,7 +1409,67 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
+					"file": "wp-content/themes/marcel/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "wp-content/themes/marcel/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35471,
+								35471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 475.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "wp-config.php",
 					"semi_transient": false,
 					"settings":
@@ -1242,8 +1481,8 @@
 						"selection":
 						[
 							[
-								744,
-								744
+								2912,
+								2912
 							]
 						],
 						"settings":
@@ -1251,56 +1490,27 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "wp-content/themes/marcel/page-gallery.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1436,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								755,
-								755
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 109.0,
+						"translation.y": 111.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "wp-content/themes/marcel/includes/js/ppm.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1771,
+						"buffer_size": 2026,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								322,
-								322
+								886,
+								886
 							]
 						],
 						"settings":
@@ -1310,128 +1520,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 179.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "wp-content/themes/marcel/functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 33869,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								33865,
-								30914
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 10861.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "wp-content/themes/marcel/page-gastebuch.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1073,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								134,
-								65
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "wp-content/themes/marcel/page-kontakt.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "wp-content/themes/marcel/page-press.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1575,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								914,
-								1248
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 11.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
@@ -1440,15 +1532,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6840,
+						"buffer_size": 22417,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4338,
-								4338
+								9004,
+								9000
 							]
 						],
 						"settings":
@@ -1456,48 +1548,50 @@
 							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 3154.0,
+						"translation.x": 10.0,
+						"translation.y": 8266.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "wp-content/themes/marcel/team-members.php",
+					"file": "wp-content/themes/marcel/includes/js/third-party.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1334,
+						"buffer_size": 85818,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1113,
-								1113
+								85818,
+								85818
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9.0,
+						"translation.y": 4526.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
 					"buffer": 13,
+					"file": "wp-content/themes/marcel/single-gallery.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1213,
 						"regions":
 						{
 						},
@@ -1510,8 +1604,122 @@
 						],
 						"settings":
 						{
-							"default_dir": "/Users/admin/Documents/Sites/marcel/wp-content/themes/marcel",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "wp-content/themes/marcel/single.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "wp-content/themes/marcel/library/less/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1654,
+								1654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 498.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "wp-content/themes/marcel/archive.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "wp-content/themes/marcel/page-club.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								633,
+								633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1521,20 +1729,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "wp-content/themes/marcel/header.php",
+					"buffer": 18,
+					"file": "wp-content/themes/marcel/page-blog.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3264,
+						"buffer_size": 1763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1972,
-								1972
+								0,
+								1763
 							]
 						],
 						"settings":
@@ -1543,10 +1751,214 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 93.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "wp-content/themes/marcel/page-bike.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								978,
+								978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "wp-content/themes/marcel/page-erfolge.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1088,
+								1088
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "wp-content/themes/marcel/page-cup.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "wp-content/themes/marcel/page-gallery.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1495,
+								1495
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "wp-content/themes/marcel/library/less/bootstrap/buttons.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3499,
+								3499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "wp-content/themes/marcel/page-auto.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1479,
+								1479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "wp-content/themes/marcel/page-about.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
 					"type": "text"
 				}
 			]
