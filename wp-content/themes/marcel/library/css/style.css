@@ -5603,7 +5603,7 @@ html[xmlns] .slides {
   cursor: default;
 }
 .flex-direction-nav a:before {
-  font-family: "iconmoon";
+  font-family: "icomoon";
   font-size: 40px;
   display: inline-block;
   content: '\e60b';
@@ -5626,7 +5626,7 @@ html[xmlns] .slides {
   color: #000;
 }
 .flex-pauseplay a:before {
-  font-family: "iconmoon";
+  font-family: "icomoon";
   font-size: 20px;
   display: inline-block;
   content: '\e60c';
