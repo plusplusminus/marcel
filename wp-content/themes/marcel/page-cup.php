@@ -16,7 +16,7 @@
 		
 		<?php
 
-		$the_query = new WP_Query( array('post_parent'=>$pid,'post_type'=>'page','orderby' => 'menu_order', 'order' => 'ASC' ));
+		$the_query = new WP_Query( array('post_parent'=>$pid,'post_type'=>'page','orderby' => 'title' ));
 		$default = array('class'=>'img-responsive pull-left');
 		// The Loop
 		if ( $the_query->have_posts() ) { $count = 0;?>
