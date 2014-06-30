@@ -31,7 +31,7 @@
 								<div class="gallery-content">
 									<div class="title-container">
 										<h4 class='title'><?php the_title();?></h4>
-										<a href="<?php the_permalink();?>" class="btn btn-xs btn-success">View Gallery</a>
+										<a href="<?php the_permalink();?>"><p>View Gallery</p></a>
 									</div>
 								</div>
 							</div>

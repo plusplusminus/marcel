@@ -17,7 +17,7 @@
 							<div class="team-content">
 								<div class="col-xs-10">
 									<h4 class='title'><?php echo $value['title']; ?></h4>
-									<?php echo wpautop($value['description']);?>
+									<a href="<?php echo $value['web_link'];?>"><?php echo wpautop($value['description']);?></a>
 								</div>
 								<div class="col-xs-2">
 									<div class="social">

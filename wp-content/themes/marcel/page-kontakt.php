@@ -27,10 +27,10 @@
 								<?php the_content(); ?>
 					        </div>
 					        
-							<div class="row">
+							<div class="row contact-details">
 								<?php if (!empty($brew_options['address'])) : ?>
 									<div class="col-xs-2">
-										<span class="icon-location"></span>
+										<span class="icon-location text-success"></span>
 									</div>
 									<div class="col-xs-10">
 										<?php echo wpautop($brew_options['address'] ); ?>
@@ -38,9 +38,10 @@
 								<?php endif; ?>
 								<?php if (!empty($brew_options['email'])) : ?>
 									<div class="col-xs-2">
-										<span class="icon-pen"></span>
+										<span class="icon-pen text-success"></span>
 									</div>
 									<div class="col-xs-10">
+									<br>
 										<?php echo wpautop($brew_options['email'] ); ?>
 									</div>
 								<?php endif; ?>
