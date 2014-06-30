@@ -3,7 +3,7 @@
 		<div class="container">
 		  <div class="row">
 			<div class="col-md-4 copyright">
-			  &copy; <?php echo date('Y'); ?> Marcel Stauffer. All rights reserved. 
+			  &copy; <?php echo date('Y'); ?> Marcel Stauffer. All rights reserved. <br> MADE WITH &#10084; by <a href="http://www.plusplusminus.co.za/?utm_source=marcel&utm_medium=footer&utm_campaign=Credit" target="_blank" style="color: #fff; text-decoration:underline;">PlusPlusMinus.</a>
 			</div>
 			<div class="col-md-4 col-md-offset-4 attribution">
 				<?php if (!empty($brew_options['twitter_url'])) : ?>
