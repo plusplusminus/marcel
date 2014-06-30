@@ -1,4 +1,3 @@
-<?php /* Template Name: About */  ?>
 <?php global $post; ?>
 
 <?php get_header(); ?>

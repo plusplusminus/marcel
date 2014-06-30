@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<?php /* Template Name: Blog */  ?>
 <?php global $post; ?>
 <?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="blog" class="bg-light">

@@ -1,4 +1,4 @@
-<?php /* Template Name: About - 1 */  ?>
+<?php /* Template Name: About 1 */  ?>
 <?php global $post; ?>
 <?php if (!(is_home() || is_front_page())) { get_header(); $pid = $post->ID; } ?>
 <section id="about" class="bg-light">
