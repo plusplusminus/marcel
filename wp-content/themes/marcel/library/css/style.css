@@ -3956,6 +3956,9 @@ td.visible-print {
 .icon-facebook:before {
   content: "\e60a";
 }
+.icon-photo:before {
+  content: "\e60d";
+}
 /******************************************************************
 Site Name: BREW
 Author: Dan Brown
