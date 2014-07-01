@@ -30,7 +30,7 @@
 								<div class="blog-content">
 									<div class="title-container">
 										<h4 class='title'><?php the_title();?></h4>
-										<a href="<?php the_permalink();?>" class="btn btn-xs btn-primary">Read More</a>
+										<a href="<?php the_permalink();?>"><p>Read More</p></a>
 									</div>
 								</div>
 							</div>

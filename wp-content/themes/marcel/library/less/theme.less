@@ -271,6 +271,7 @@ body {
 		padding: 15px;
 		background-color: @gray-dark;
 		border-bottom: 2px solid @brand-success;
+		margin-bottom: 30px;
 		h4.media-heading{
 			color: @brand-success;
 		}
@@ -355,14 +356,25 @@ body {
 	}
 }
 
-//CLUB
-#club{
-	.sponsors-content{
-		.info-container();
-	}
-}
 // CUP 
 #cup {
+	.media{
+		padding: 15px;
+		background-color: @gray-dark;
+		margin-bottom: 30px;
+		border-bottom: 2px solid @brand-success;
+		h4.media-heading{
+			color: @brand-success;
+		}
+		p{
+			color: @gray-light;
+			margin-bottom: 0px;
+		}
+		.icon-note{
+			font-size: 2.2em;
+		}
+	}
+
 	.btn-group {
 		display: block;
 	}
@@ -382,9 +394,28 @@ body {
 // CONTACT
 
 #contact{
+	.section-heading{
+		h2{
+			color: #fff
+		}
+	}
 	.contact-container{
 		margin-top: 30px;
 		padding: 50px 40px 40px 40px;
+		h2{
+			font-weight: bold;
+		}
+		.contact-details{
+			font-size: 16px;
+			margin-top: 20px;
+			.icon-location{
+				font-size: 3.2em;
+			}
+			 .icon-pen{
+			 	font-size: 2.8em;
+			 	line-height: 1.4em;
+			}
+		}
 	}
 }
 
@@ -395,9 +426,9 @@ body {
 		.btn-success();
 	}
 	.gform_footer {
-	padding: 6px 0 10px 0;
-	margin: 6px 0 0 0;
-	clear: both;
+		padding: 6px 0 10px 0;
+		margin: 6px 0 0 0;
+		clear: both;
 	}
 
 	h3.gform_title{
@@ -412,6 +443,8 @@ body {
 		border:2px solid @gray-lighter;
 		margin-bottom: 20px;
 		padding: 15px;
+		color: @gray-dark;
+		font-size: @font-size-base;
 		color: @gray-dark;
 	}
 	.gform_footer{

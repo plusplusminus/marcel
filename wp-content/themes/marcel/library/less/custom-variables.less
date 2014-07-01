@@ -20,6 +20,7 @@
 
 @brand-warning:         #f0ad4e;
 @brand-danger:          #E41365; // pink
+@brand-default:          #ffffff; // white
 
 
 //== Scaffolding
@@ -32,9 +33,9 @@
 @text-color:            @gray-dark;
 
 //** Global textual link color.
-@link-color:            @brand-primary;
+@link-color:            @brand-default;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 15%);
+@link-hover-color:      darken(@link-color, 35%);
 
 
 //== Typography
@@ -345,7 +346,7 @@
 // Inverted navbar
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
-@navbar-inverse-bg:                         #f6f6f6;
+@navbar-inverse-bg:                         #fff;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links

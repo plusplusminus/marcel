@@ -65,10 +65,10 @@
 				<div class="inner">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-offset-6 col-md-6">
-								<h2>Marcel Stauffer</h2>
-								<h2 class="text-success">The Blade</h2>
-								<button class="btn btn-primary" data-toggle="modal" data-target="#ModalVideo">Video</button>
+							<div class="col-md-offset-8 col-md-4">
+								<h1 class="text-default">Marcel Stauffer</h1>
+								<h1 class="text-success">The Blade</h1>
+								<button class="btn btn-default" data-toggle="modal" data-target="#ModalVideo">Video</button>
 							</div>
 						</div>
 					</div>

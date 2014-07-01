@@ -30,6 +30,7 @@
 								</div>
 								<div class="gallery-content">
 									<div class="title-container">
+<<<<<<< HEAD
 										<div class="col-xs-10">
 											<h4 class='title'><?php the_title();?></h4>
 											<p><a href="<?php the_permalink();?>">View Gallery</a></p>
@@ -40,6 +41,10 @@
 											</div>
 										</div>
 										<div class="clearfix"></div>
+=======
+										<h4 class='title'><?php the_title();?></h4>
+										<a href="<?php the_permalink();?>"><p>View Gallery</p></a>
+>>>>>>> origin/master
 									</div>
 
 								</div>

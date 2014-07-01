@@ -42,11 +42,11 @@
 					<?php $inner .=	'<div class="col-md-6">
 										<div class="media">
 											<a class="pull-right" href="#">
-												<span class="fa fa-table fa-3x"></span>
+												<span class="icon-note text-success"></span>
 											</a>
 											<div class="media-body">
 												<h4 class="media-heading">'.$value['title'].'</h4>
-												'.$value['description'].'
+												<p>'.$value['description'].'</p>
 											</div>
 										</div>
 									</div>';
