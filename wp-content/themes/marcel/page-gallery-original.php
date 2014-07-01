@@ -30,18 +30,9 @@
 								</div>
 								<div class="gallery-content">
 									<div class="title-container">
-										<div class="col-xs-10">
-											<h4 class='title'><?php the_title();?></h4>
-											<p><a href="<?php the_permalink();?>">View Gallery</a></p>
-										</div>
-										<div class="col-xs-2">
-											<div class="social">
-												<p><a href="<?php the_permalink();?>"><span class="icon-photo"></span></a></p><!-- to adjust to fit -->
-											</div>
-										</div>
-										<div class="clearfix"></div>
+										<h4 class='title'><?php the_title();?></h4>
+										<a href="<?php the_permalink();?>" class="btn btn-xs btn-success">View Gallery</a>
 									</div>
-
 								</div>
 							</div>
 							<?php if (($count % 2 == 0)) echo '<div class="clearfix visible-sm"></div>'; ?>
