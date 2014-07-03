@@ -30,22 +30,19 @@
 								</div>
 								<div class="gallery-content">
 									<div class="title-container">
-
-										<!-- <div class="col-xs-10">
-											<h4 class='title'><?php the_title();?></h4>
-											<p><a href="<?php the_permalink();?>">View Gallery</a></p>
-										</div>
-										<div class="col-xs-2">
-											<div class="social">
-												<p><a href="<?php the_permalink();?>"><span class="icon-photo"></span></a></p><!-- to adjust to fit -->
-											<!-- </div>
-										</div> --> 
-										
-										<h4 class='title'><?php the_title();?></h4>
-										<a href="<?php the_permalink();?>"><p>View Gallery</p></a>
+										<div class="row">
+											<div class="col-xs-10">
+												<h4 class='title'><?php the_title();?></h4>
+												<p><a href="<?php the_permalink();?>">View Gallery</a></p>
+											</div>
+											<div class="col-xs-2">
+												<div class="social">
+													<p><a href="<?php the_permalink();?>"><span class="icon-photo"></span></a></p><!-- to adjust to fit -->
+												</div>
+											</div>
+										</div>										
 										
 										
-										<p><a href="<?php the_permalink();?>"><span class="icon-photo"></span></a></p>
 											
 									</div>
 									<div class="clearfix"></div>	

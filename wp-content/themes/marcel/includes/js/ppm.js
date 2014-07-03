@@ -24,6 +24,8 @@ jQuery(document).ready(function(){
 
     jQuery('.masonry a[rel^="prettyPhoto"]').prettyPhoto({'social_tools':false});
 
+    jQuery('.press a[rel^="prettyPhoto"]').prettyPhoto({'social_tools':false});
+
     jQuery("nav").sticky({topSpacing:0});
 
 	jQuery('body').scrollspy({ target: '.navbar-collapse' })

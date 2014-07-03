@@ -30,11 +30,13 @@
 					<li>
 						<div class="row">
 							<?php while ( $the_query->have_posts() ) { $the_query->the_post(); $count++;?>
-							<div class="col-md-6">
-								<a href="#">
+							<div class="col-md-6 press">
+								<?php $id = get_post_thumbnail_id(); ?>
+								<?php $image =  wp_get_attachment_image_src( $id,'full'); ?>
+								<a href="<?php echo $image[0];?>" rel="prettyphoto">
 									<div class="media">
 										<span class="pull-right">
-											<?php the_post_thumbnail('full',$default);?>
+											<?php the_post_thumbnail('thumbnail',$default);?>
 										</span>
 										<div class="media-body">
 											<h4 class="media-heading"><?php the_title();?></h4>

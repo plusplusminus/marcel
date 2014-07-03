@@ -5185,6 +5185,9 @@ body {
 #team .team-content .social a .fa {
   color: #fff;
 }
+#press a {
+  text-decoration: none;
+}
 #press .media {
   padding: 15px;
   background-color: #333333;
@@ -5205,6 +5208,11 @@ body {
   background-color: #333333;
   padding: 5px 15px;
   border-bottom: 2px solid #cefc44;
+}
+#gallery .gallery-content .title-container .social {
+  text-align: center;
+  display: block;
+  padding: 10px 0;
 }
 #gallery .gallery-content .title-container h4.title {
   color: #cefc44;
