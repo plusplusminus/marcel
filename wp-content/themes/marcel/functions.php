@@ -316,6 +316,12 @@ function cmb_sample_metaboxes( array $meta_boxes ) {
                         'type' => 'text',
                         // 'repeatable' => true, // Repeatable fields are supported w/in repeatable groups (for most types)
                     ),
+                    array(
+                        'name' => 'Entry Download',
+                        'id'   => 'url',
+                        'type' => 'text',
+                        // 'repeatable' => true, // Repeatable fields are supported w/in repeatable groups (for most types)
+                    ),
                 ),
             ),
         

@@ -17,7 +17,7 @@
 		
 		<?php
 
-		$the_query = new WP_Query( array('post_type'=>'press','orderby' => 'menu_order', 'order' => 'ASC' ));
+		$the_query = new WP_Query( array('post_type'=>'press','orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => -1 ));
 		$default = array('class'=>'img-responsive pull-left');
 		
 		// The Loop

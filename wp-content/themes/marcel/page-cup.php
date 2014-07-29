@@ -41,7 +41,7 @@
 
 					<?php $inner .=	'<div class="col-md-6">
 										<div class="media">
-											<a class="pull-right" href="#">
+											<a class="pull-right" href="'.$value['url'].'" target="_blank">
 												<span class="icon-note text-success"></span>
 											</a>
 											<div class="media-body">

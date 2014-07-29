@@ -111,7 +111,7 @@
 
 										
 										<?php foreach ($items as $key => $value) { $count++; ?>
-
+										
 											<?php $html_body.= '<li>
 												<a target="_blank" href="'.$value['url'].'"><div class="image-container">'.wp_get_attachment_image($value['image_id'],'full','',$default).'
 												</div></a></li>';
